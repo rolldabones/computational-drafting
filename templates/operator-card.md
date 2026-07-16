@@ -1,6 +1,6 @@
 # Template: The Operator Card
 
-Part of [Computational Drafting](../README.md) · v1.1.0 · 2026-07-16 (KST)
+Part of [Computational Drafting](../README.md) · v1.1.1 · 2026-07-16 (KST)
 
 The operator is the interpreter most specifications never address. The executive gets a memo, the model gets a prompt, the runtime gets a permission set, the auditor gets a log, and the human who sits next to the system every day gets folklore: what may I do, what must I not do, and when do I call someone, learned from whoever trained them and amended by whatever has gone wrong so far. The [interpreter map](../02-interpreter-map.md) requires that each actor's authority be stated in the artifact that actor actually reads (review checklist question 2), and for the operator that artifact must exist before it can be read. The operator card is that artifact. It is the form the [worked example](../examples/invoice-agent-worked-example.md) produced when its third interpreter-walk finding was that operator knowledge was folkloric.
 

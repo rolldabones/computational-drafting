@@ -1,6 +1,6 @@
 # Template: The System Prompt as an Instrument of Delegated Authority
 
-Part of [Computational Drafting](../README.md) · v1.1.0 · 2026-07-16 (KST)
+Part of [Computational Drafting](../README.md) · v1.1.1 · 2026-07-16 (KST)
 
 A system prompt for an agent with tools is not a description of a persona. It is a grant of delegated authority, and it should be drafted the way instruments of delegation have always been drafted: recitals, grant, reservations, conditions, covenants, termination and precedence. This template supplies the skeleton and, in the annotations, the reason each section exists.
 
