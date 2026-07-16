@@ -1,6 +1,6 @@
 # Template: The Clause-to-Control Map
 
-Part of [Computational Drafting](../README.md) · v1.0.0 · 2026-07-15 (KST)
+Part of [Computational Drafting](../README.md) · v1.1.0 · 2026-07-16 (KST)
 
 The same requirement usually exists in several forms: a contract clause, a policy paragraph, a line in a system prompt, a permission in a runtime, a test in a suite. Each form is a translation, translation is where meaning is lost, and the loss is invisible until an incident makes it the finding. The clause-to-control map is the instrument that makes the translations visible and testable. It is the second obligation of the drafter (see [02-interpreter-map.md](../02-interpreter-map.md)): after completeness, consistency.
 

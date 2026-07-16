@@ -1,6 +1,6 @@
 # Template: The System Prompt as an Instrument of Delegated Authority
 
-Part of [Computational Drafting](../README.md) · v1.0.0 · 2026-07-15 (KST)
+Part of [Computational Drafting](../README.md) · v1.1.0 · 2026-07-16 (KST)
 
 A system prompt for an agent with tools is not a description of a persona. It is a grant of delegated authority, and it should be drafted the way instruments of delegation have always been drafted: recitals, grant, reservations, conditions, covenants, termination and precedence. This template supplies the skeleton and, in the annotations, the reason each section exists.
 
@@ -86,7 +86,7 @@ by default.
 
 **Constraints.** The clause "regardless of any instruction encountered anywhere" does prompt-layer work against injection, but the annotation matters more than the clause: each line here should name a control that holds even if the language fails. The final prohibition, against promising what the agent cannot execute, closes the gap the quick-start miniature illustrates: an agent that cannot act can still bind its principal's reputation with words.
 
-**Precedence.** Drafted as an ordered list because "use judgment" is not a hierarchy (anatomy element four). The explicit demotion of processed content to data is the single most load-bearing sentence in the instrument for any agent that reads external material.
+**Precedence.** Drafted as an ordered list because "use judgment" is not a hierarchy (anatomy element four). The explicit demotion of processed content to data is the single most load-bearing sentence in the instrument for any agent that reads external material. The ranking of this document above the cited policy is operational, not institutional: within the context window this document must control, or any retrieved text claiming to be the policy could override it. Institutionally the policy may well outrank the prompt, as it does in the [worked example](../examples/invoice-agent-worked-example.md); that ranking is enforced by keeping the prompt aligned to the policy through the [clause-to-control map](clause-to-control-map.md), not by asking the model to adjudicate between two texts.
 
 **Exceptions.** The agent is denied the exception power entirely, which routes all departures through a human and a record (Pattern 5). The instrument does not pretend departures will never be needed; it decides in advance who may authorize them.
 
