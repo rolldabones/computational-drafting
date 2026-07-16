@@ -1,6 +1,6 @@
 # Quick Start: The Minimal Drafting Loop
 
-Part of [Computational Drafting](README.md) · v1.1.0 · 2026-07-16 (KST)
+Part of [Computational Drafting](README.md) · v1.1.1 · 2026-07-16 (KST)
 
 This file contains the whole discipline in miniature. It is usable without the rest of the repository. The rest of the repository exists because real deployments outgrow it.
 

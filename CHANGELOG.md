@@ -2,6 +2,13 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.1.1 (2026-07-16)
+
+Correction.
+
+- README: the How to Cite block advances with the repository version; it remained at v1.0.0 through the v1.1.0 release.
+- All file headers advance to v1.1.1 in lockstep. LICENSE.md is unchanged.
+
 ## v1.1.0 (2026-07-16)
 
 New template and precision corrections.
