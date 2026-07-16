@@ -1,6 +1,6 @@
 # Worked Example: The Accounts Payable Invoice Agent
 
-Part of [Computational Drafting](../README.md) · v1.0.0 · 2026-07-15 (KST)
+Part of [Computational Drafting](../README.md) · v1.1.0 · 2026-07-16 (KST)
 
 One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable contains all six.
 
@@ -32,9 +32,9 @@ The Controller answers for every payment the workflow touches. This was not auto
 
 The draft was walked through the [interpreter map](../02-interpreter-map.md). Three translation findings, all repaired before the hostile-case pass:
 
-1. **The runtime did not know the threshold.** The USD 10,000 rule existed in the policy and the prompt but the payment API scope was unlimited. The constraint was a preference until the scope was capped. (Checklist question 3.)
+1. **The runtime did not know the threshold.** The USD 10,000 rule existed in the policy and the prompt but the payment API scope was unlimited. The rule was a preference until the scope was capped. (Checklist questions 3 and 7.)
 2. **The reviewer had criteria but no evidence.** Monthly sampling was specified, but the agent's match output did not cite which receiving record it matched against, so the reviewer could not re-perform the match. The evidence element was extended to require cited sources. (Checklist question 6.)
-3. **The operator artifact was missing.** AP staff had no plain-language statement of what the agent does and when to intervene; their knowledge was folkloric. A one-page operator card was added to the specification set. (Checklist question 2.)
+3. **The operator artifact was missing.** AP staff had no plain-language statement of what the agent does and when to intervene; their knowledge was folkloric. A one-page operator card was added to the specification set; the form is [templates/operator-card.md](../templates/operator-card.md). (Checklist question 2.)
 
 The clause-to-control rows for this deployment appear in the [clause-to-control map template](../templates/clause-to-control-map.md).
 
