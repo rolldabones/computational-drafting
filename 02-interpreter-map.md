@@ -1,6 +1,6 @@
 # The Interpreter Map
 
-Part of [Computational Drafting](README.md) · v1.0.0 · 2026-07-15 (KST)
+Part of [Computational Drafting](README.md) · v1.1.0 · 2026-07-16 (KST)
 
 A specification is not read once. It is read by a chain of interpreters, each asking a different question of it, each acting on the answer, and each capable of defeating the drafter's intent while remaining formally faithful to the text. The drafter's obligation runs to all of them. A specification that works for only one interpreter is incomplete.
 
@@ -10,7 +10,7 @@ A specification is not read once. It is read by a chain of interpreters, each as
 |---|---|---|
 | Executive / principal | Does this system serve the objective, and am I willing to answer for it | The objective and authority elements in plain institutional language, plus the residual liability made explicit |
 | Counterparty | What am I entitled to, and what remedy do I have | Operative obligations, allocations of risk and the evidence that performance can be demonstrated |
-| Employee / operator | What may I do, what must I not do, and when do I call someone | Authority, constraints and escalation in operational language, without requiring legal or technical fluency |
+| Employee / operator | What may I do, what must I not do, and when do I call someone | Authority, constraints and escalation in operational language, without requiring legal or technical fluency; the form is [templates/operator-card.md](templates/operator-card.md) |
 | Developer | What must be built, and how will I know it is right | Constraints and acceptance criteria in implementable form; the precedence hierarchy as configuration, not folklore |
 | Model / agent | What response or action follows from this instruction | The objective, authority, constraints, precedence and escalation elements inside the instruction context, drafted for a probabilistic reader |
 | Runtime | Is this action technically permitted for this identity right now | Constraints and authority compiled into permissions, scopes, gates and limits |

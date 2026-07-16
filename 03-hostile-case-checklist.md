@@ -1,6 +1,6 @@
 # The Hostile-Case Checklist
 
-Part of [Computational Drafting](README.md) · v1.0.0 · 2026-07-15 (KST)
+Part of [Computational Drafting](README.md) · v1.1.0 · 2026-07-16 (KST)
 
 Experienced transactional lawyers draft for the moment trust has failed. Experienced engineers design for malformed inputs and hostile users. Computational drafting inherits both instincts and adds a third: the interpreter itself may defeat the intent while remaining, formally, within the text. Harmful results are rarely written as requirements. They compile from individually defensible decisions, and the monster appears at runtime.
 

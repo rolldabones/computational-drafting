@@ -1,6 +1,17 @@
 # Changelog
 
-Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or either template) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
+Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
+
+## v1.1.0 (2026-07-16)
+
+New template and precision corrections.
+
+- templates/operator-card: the third template, a one-page plain-language card for the employee and operator interpreter. It is the artifact the worked example's third interpreter-walk finding produced, and the one interpreter the toolkit supplied no form for.
+- 02-interpreter-map: the employee/operator row now names the operator card as its form.
+- templates/system-prompt-as-delegated-authority: the Precedence annotation now resolves the divergence between the skeleton, which ranks this document above the cited policy, and the worked example, which ranks the policy above the specification. The prompt's primacy is operational, inside the context window; institutional precedence is enforced through the clause-to-control map.
+- README: the Origin section links the published essay directly (16 July 2026); the publication-page reference is retained.
+- examples/invoice-agent-worked-example: interpreter-walk finding one reworded from "constraint" to "rule" to match step two, which classifies the USD 10,000 threshold as an escalation condition, and now cites checklist questions 3 and 7; finding three names the operator-card form.
+- All file headers advance to v1.1.0 in lockstep. LICENSE.md is unchanged.
 
 ## v1.0.0 (2026-07-15)
 

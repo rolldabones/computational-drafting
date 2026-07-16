@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.0.0 | 2026-07-15 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.1.0 | 2026-07-16 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -99,6 +99,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 | [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Six failure patterns of interpreted specifications and the drafting countermeasures for each |
 | [templates/system-prompt-as-delegated-authority.md](templates/system-prompt-as-delegated-authority.md) | An annotated system prompt skeleton drafted as an instrument of delegated authority |
 | [templates/clause-to-control-map.md](templates/clause-to-control-map.md) | A template mapping contractual and policy obligations to technical controls, evidence and owners |
+| [templates/operator-card.md](templates/operator-card.md) | A one-page plain-language card giving the operator the system's authority, constraints and escalation triggers without requiring legal or technical fluency |
 | [examples/invoice-agent-worked-example.md](examples/invoice-agent-worked-example.md) | A complete specification for an accounts payable agent, walked through the interpreter map and the hostile-case checklist |
 
 ## How to Use This Repository
@@ -119,7 +120,7 @@ Nothing in this repository is legal advice. Specifications that allocate legal a
 
 ## Origin
 
-The discipline was named and first developed in the essay *The Dungeon Is a Legal System* (Substack, [redcaps](https://open.substack.com/pub/redcaps), July 2026), which read Matt Dinniman's *Dungeon Crawler Carl* as an executable legal system and derived the drafting problem from it. This repository states the discipline fresh rather than excerpting the essay, so that the two artifacts can evolve independently: the essay as origin, the repository as canon.
+The discipline was named and first developed in the essay [*The Dungeon Is a Legal System*](https://redcaps.substack.com/p/the-dungeon-is-a-legal-system) (Substack, [redcaps](https://open.substack.com/pub/redcaps), July 2026), which read Matt Dinniman's *Dungeon Crawler Carl* as an executable legal system and derived the drafting problem from it. This repository states the discipline fresh rather than excerpting the essay, so that the two artifacts can evolve independently: the essay as origin, the repository as canon.
 
 ## Part of the Ecosystem
 
