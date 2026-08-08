@@ -2,6 +2,17 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.2.0 (2026-08-08)
+
+New exposition and template.
+
+- 04-proof-carrying-analysis: the proof-carrying analysis record, the output-side instrument. Each material assertion is logged with its type, authority and pinpoint, dependencies, contradictions, verification status and change conditions, so the reviewer checks the reasoning rather than the prose.
+- templates/claim-evidence-matrix: the record's fill-in form.
+- Origin: the essay *Common Notions* (8 August 2026), https://redcaps.substack.com/p/common-notions
+- README: version table, Repository Contents and How to Cite advance to v1.2.0.
+- Convention change, logged here: file headers advance only when the file itself changes. The release version is carried by this changelog, the README version table and the git tag. Headers on the eight unchanged files remain at their prior versions.
+- LICENSE.md is unchanged.
+  
 ## v1.1.1 (2026-07-16)
 
 Correction.
