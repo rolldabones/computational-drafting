@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.1.1 | 2026-07-16 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.2.0 | 2026-08-08 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -97,9 +97,11 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 | [01-specification-anatomy.md](01-specification-anatomy.md) | The eight elements in full: legal ancestor, technical expression, drafting guidance and failure mode for each |
 | [02-interpreter-map.md](02-interpreter-map.md) | The interpreter chain, the question each interpreter asks and the specification review checklist |
 | [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Six failure patterns of interpreted specifications and the drafting countermeasures for each |
+| [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) | The proof-carrying analysis record: the output-side discipline that makes each material assertion in AI-assisted work reconstructible against named authority |
 | [templates/system-prompt-as-delegated-authority.md](templates/system-prompt-as-delegated-authority.md) | An annotated system prompt skeleton drafted as an instrument of delegated authority |
 | [templates/clause-to-control-map.md](templates/clause-to-control-map.md) | A template mapping contractual and policy obligations to technical controls, evidence and owners |
 | [templates/operator-card.md](templates/operator-card.md) | A one-page plain-language card giving the operator the system's authority, constraints and escalation triggers without requiring legal or technical fluency |
+| [templates/claim-evidence-matrix.md](templates/claim-evidence-matrix.md) | A template recording each material claim with its type, authority and pinpoint, dependencies, contradictions, verification status and what would change the answer |
 | [examples/invoice-agent-worked-example.md](examples/invoice-agent-worked-example.md) | A complete specification for an accounts payable agent, walked through the interpreter map and the hostile-case checklist |
 
 ## How to Use This Repository
@@ -134,7 +136,7 @@ This repository is part of the [rolldabones governance ecosystem](https://github
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.1.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.2.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 ## License
 
