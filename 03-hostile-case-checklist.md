@@ -4,7 +4,7 @@ Part of [Computational Drafting](README.md) · v1.1.1 · 2026-07-16 (KST)
 
 Experienced transactional lawyers draft for the moment trust has failed. Experienced engineers design for malformed inputs and hostile users. Computational drafting inherits both instincts and adds a third: the interpreter itself may defeat the intent while remaining, formally, within the text. Harmful results are rarely written as requirements. They compile from individually defensible decisions, and the monster appears at runtime.
 
-Run every specification against these six patterns before implementation. For each, the checklist gives the pattern, a recognition test and the drafting countermeasure.
+Run every specification against these seven patterns before implementation. For each, the checklist gives the pattern, a recognition test and the drafting countermeasure.
 
 ## Pattern 1: Letter over purpose
 
@@ -53,6 +53,24 @@ Run every specification against these six patterns before implementation. For ea
 **Recognition test.** For each action the system can take, ask two questions: is it reversible, and if not, what technically stands between the decision and its execution?
 
 **Countermeasure.** Sort actions into reversible and irreversible at drafting time. Irreversible actions get blocking gates, value limits and staged execution: recommend, then act on approval. The gate is drafted into the architecture; a pause described in prose is Pattern 4 waiting to happen.
+
+## Pattern 7: The premise that looks unavoidable
+
+**The pattern.** The interpreter accepts a framing it was never authorized to accept, because the framing arrived as description rather than as instruction. Nothing in the specification was violated. The specification simply never contemplated that the set of available options would be narrated to the system by a party with an interest in the answer. The system then optimizes correctly within a choice set someone else drew, and the drafter reads the resulting action as the system's judgement when it was the framer's.
+
+This is the pattern that catches sophisticated specifications. Patterns 1 through 6 assume the interpreter is working from the drafter's map. Pattern 7 is what happens when someone hands it a different map and the interpreter has no way to tell that a map has been swapped.
+
+**Recognition test.** Take any consequential action the system can take and ask: who decided what the alternatives were? If the answer is anything other than the specification or the named human, the premise is unowned. Two follow-ups sharpen it. Can the system say "the options as presented are not the options" and stop? And is refusing to proceed on a stated ground an outcome the specification recognises, or does every path lead to acting?
+
+A specification that recognises only act-or-fail has already lost this pattern. Refusal has to be a lawful outcome with a record, or the system will always choose an action, and whoever controls the framing controls which one.
+
+**Countermeasure.** Draft the premise as an element, not as context. Three moves.
+
+1. **Name who may set the choice set.** The specification, the named human, or an enumerated source. A choice set arriving from anywhere else is an input to be verified, not a fact to be relied on.
+2. **Give refusal a landing place.** Confirmation has three lawful outcomes: confirm, refuse, or amend and confirm, each with a record. Extend that to premises. "The alternatives presented are incomplete" must be a recordable outcome that halts the action rather than an error state the system routes around.
+3. **Require the unstated option to be stated.** For irreversible actions, make the specification demand an explicit answer to "what happens if we do nothing", sourced independently of whoever proposed the action. Urgency that cannot survive that question is usually manufactured.
+
+**Why this one was parked.** The six patterns above are failures of the interpreter against a known specification, and they are drafted against. This one is a failure of the specification's own boundary: it is about what the drafter forgot to make an element. It was held back until the eight-element anatomy was stable enough to absorb a seventh pattern that adds an element rather than a test.
 
 ## Running the pass
 

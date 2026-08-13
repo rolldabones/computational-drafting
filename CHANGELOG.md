@@ -2,6 +2,16 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.3.0 (2026-08-13)
+
+Seventh hostile-case pattern, previously parked.
+
+- **03-hostile-case-checklist: Pattern 7, the premise that looks unavoidable.** The interpreter accepts a framing it was never authorized to accept, because the framing arrived as description rather than as instruction. Nothing in the specification is violated; the specification simply never contemplated that the choice set would be narrated to the system by a party with an interest in the answer. The system then optimizes correctly inside a set someone else drew.
+- Patterns 1 through 6 are failures of the interpreter against a known specification. Pattern 7 is a failure of the specification's own boundary, which is why it adds an element rather than a test, and why it was held until the eight-element anatomy was stable enough to absorb it.
+- The countermeasure has three moves: name who may set the choice set; give refusal a landing place, extending the three lawful outcomes of confirmation to premises so that "the alternatives presented are incomplete" halts the action with a record rather than becoming an error state the system routes around; and for irreversible actions require an explicit, independently sourced answer to "what happens if we do nothing".
+- Pattern counts updated in 00-quick-start and in the checklist preamble. Six to seven.
+- License metadata sweep folded into this release: `SPDX-License-Identifier: CC-BY-NC-SA-4.0` and the canonical Creative Commons legal code added inside the existing license file, filename unchanged, human summary retained above the legal code.
+
 ## v1.2.0 (2026-08-08)
 
 New exposition and template.
