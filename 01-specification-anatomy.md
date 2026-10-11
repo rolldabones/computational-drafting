@@ -1,6 +1,6 @@
 # The Anatomy of a Computational Specification
 
-Part of [Computational Drafting](README.md) · v1.1.1 · 2026-07-16 (KST)
+Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
 
 A computational specification states eight elements. Each is presented here in the same four-part form: what it is, its legal ancestor, its technical expression and the characteristic failure when it is missing. The order is deliberate. Elements one and two establish who wants what and who may act. Elements three through five bound the field of action. Elements six through eight make the action inspectable, interruptible and acceptable.
 
@@ -18,7 +18,7 @@ The elements may live in one artifact or several: a contract, a policy, a system
 
 ## 2. Authority
 
-**What it is.** Who may act, under whose delegation, with which decision rights reserved to the principal. Authority distinguishes the power to recommend from the power to act, and reversible actions from actions that require a human before they occur.
+**What it is.** Who may act, under whose delegation, with which decision rights reserved to the principal. Authority distinguishes the power to recommend from the power to act, and reversible actions from actions that require a human before they occur. It also includes the quietest decision right of all: who may say what the alternatives are. A system that chooses correctly among options someone else supplied has exercised an authority nobody granted, which is hostile-case Pattern 7.
 
 **Legal ancestor.** Agency law, powers of attorney, corporate delegations of authority, signing matrices. The oldest drafting problem there is: conferring enough power to be useful without conferring enough to be dangerous.
 
@@ -68,7 +68,7 @@ The elements may live in one artifact or several: a contract, a policy, a system
 
 ## 7. Escalation
 
-**What it is.** The conditions that force the system to stop and summon a human: value thresholds, confidence thresholds, named subject matters, novelty, detected conflict among instructions. Escalation is drafted as a blocking condition, not an aspiration. A requirement for human oversight is incomplete unless the system is technically prevented from proceeding until approval arrives.
+**What it is.** The conditions that force the system to stop and summon a human: value thresholds, confidence thresholds, named subject matters, novelty, detected conflict among instructions, a choice set arriving from a source the authority element does not name. Refusing to proceed on a stated ground is itself a lawful outcome with a record, not an error state. Escalation is drafted as a blocking condition, not an aspiration. A requirement for human oversight is incomplete unless the system is technically prevented from proceeding until approval arrives.
 
 **Legal ancestor.** Conditions precedent, reserved matters in shareholder agreements, referral obligations in professional rules.
 

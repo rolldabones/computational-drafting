@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | former General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.3.2 | 2026-10-12 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.4.0 | 2026-10-12 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -95,8 +95,8 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 |---|---|
 | [00-quick-start.md](00-quick-start.md) | The minimal drafting loop and a worked miniature, usable without the rest of the repository |
 | [01-specification-anatomy.md](01-specification-anatomy.md) | The eight elements in full: legal ancestor, technical expression, drafting guidance and failure mode for each |
-| [02-interpreter-map.md](02-interpreter-map.md) | The interpreter chain, the question each interpreter asks and the specification review checklist |
-| [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Seven failure patterns of interpreted specifications and the drafting countermeasures for each |
+| [02-interpreter-map.md](02-interpreter-map.md) | The interpreter chain, the question each interpreter asks and the eleven-question specification review checklist |
+| [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Seven failure patterns of interpreted specifications and the drafting countermeasures for each; the seventh lands in the authority, evidence and escalation elements |
 | [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) | The proof-carrying analysis record: the output-side discipline that makes each material assertion in AI-assisted work reconstructible against named authority |
 | [templates/system-prompt-as-delegated-authority.md](templates/system-prompt-as-delegated-authority.md) | An annotated system prompt skeleton drafted as an instrument of delegated authority |
 | [templates/clause-to-control-map.md](templates/clause-to-control-map.md) | A template mapping contractual and policy obligations to technical controls, evidence and owners |
@@ -106,7 +106,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 
 ## How to Use This Repository
 
-Read [00-quick-start.md](00-quick-start.md) first. It contains the whole loop in miniature and is usable on its own. The worked example shows the same loop at deployment scale, end to end, including two defects the hostile-case pass catches before anyone could rely on the system.
+Read [00-quick-start.md](00-quick-start.md) first. It contains the whole loop in miniature and is usable on its own. The worked example shows the same loop at deployment scale, end to end, including three defects the hostile-case pass catches before anyone could rely on the system.
 
 When drafting a real specification: work through the eight elements in [01-specification-anatomy.md](01-specification-anatomy.md), walk the draft through the checklist in [02-interpreter-map.md](02-interpreter-map.md), then stress it against [03-hostile-case-checklist.md](03-hostile-case-checklist.md) before anyone builds against it. The templates are starting points, not substitutes for judgment: adapt them to the authority structure and evidence requirements of the actual deployment.
 
@@ -138,7 +138,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.3.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.4.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

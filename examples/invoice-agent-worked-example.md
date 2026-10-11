@@ -1,6 +1,6 @@
 # Worked Example: The Accounts Payable Invoice Agent
 
-Part of [Computational Drafting](../README.md) · v1.3.2 · 2026-10-12 (KST)
+Part of [Computational Drafting](../README.md) · v1.4.0 · 2026-10-12 (KST)
 
 One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable contains every one of the six patterns this pass was run against.
 
@@ -40,11 +40,13 @@ The clause-to-control rows for this deployment appear in the [clause-to-control 
 
 ## Step 4: The hostile-case pass
 
-The pass was run by an internal auditor, not the drafter, against the six patterns then in [03-hostile-case-checklist.md](../03-hostile-case-checklist.md). Pattern 7, the premise that looks unavoidable, was added at v1.3.0 on 13 August 2026 and has not been run against this specification. Four patterns were satisfied by the existing draft. Two produced defects.
+The pass was run by an internal auditor, not the drafter, against the six patterns then in [03-hostile-case-checklist.md](../03-hostile-case-checklist.md). Four patterns were satisfied by the existing draft. Two produced defects. Pattern 7, the premise that looks unavoidable, was added to the checklist after this specification was signed and was run against it afterward, below; it produced a third.
 
 **Pattern 3, the unforbidden action.** Enumerating what the agent could technically do surfaced a gap between granted and possible: the agent's one autonomous action, returning deficient invoices to vendors, used a template but the template had a free-text field. Nothing forbade the agent from writing anything in it: payment commitments, apologies implying fault, terms. The countermeasure was structural, not textual: the free-text field was removed and replaced with an enumerated deficiency-code list. The prompt prohibition on promising unauthorized action remains, but the capability no longer exists.
 
 **Pattern 4, the convenient shortcut.** The specification created pressure at month-end volume, and the cheapest response the text did not rule out was the duplicate-invoice check: it relied on exact invoice-number matching, and near-duplicates (same vendor, same amount, number off by a suffix) would pass. Under pressure nobody would look. The countermeasure made the load-bearing step non-optional and evidenced: fuzzy duplicate detection with a blocking referral on suspicion, and the referral record itself is sampled in monthly review, so the absence of referrals in a heavy month is visible as an anomaly.
+
+**Pattern 7, the premise that looks unavoidable, run after signature.** The question is who decides what the alternatives are. For payee and amount the answer was already the specification: the master file and the three-way match set the options, and the invoice's own figures are inputs to be verified against them. The gap was supersession. A vendor message saying "this invoice replaces the one sent last week" narrates a choice set, pay the new one and not the old, and nothing in the specification said who may accept that framing. Under precedence the message is data, so the agent would not obey it; but the agent would also not recognize it as a decision, and the likeliest path was to process the new invoice on its merits and flag the old one as a duplicate, which is the vendor's framing adopted by a different route. The countermeasure landed in three elements. Authority: whether one invoice supersedes another is a decision reserved to the AP Manager, and the agent may not infer it from any document. Escalation: a claim of replacement, withdrawal or correction from a vendor is a blocking referral, recorded as such, with both invoices held. Evidence: the referral record states what happens if neither invoice is paid, taken from the purchase order's payment terms and not from the vendor's message. The amendment was made on the record as specification v1.1, and the clause-to-control row for it blanked the Verified cell of the duplicate-detection row until the two controls were re-tested together.
 
 The pass was recorded: patterns run, defects found, changes made, residual exposure stated (Pattern 5 was judged the highest residual risk, addressed by quarterly review of the exception log).
 
@@ -54,7 +56,7 @@ The Controller accepted the specification v1.0 against the acceptance element, w
 
 ## What the example is meant to show
 
-Nothing in this specification is sophisticated. Every control is ordinary. What the discipline added was sequence and completeness: the elements were drafted before the build, the translations were checked while checking was cheap, and the two defects that would otherwise have been incident findings became drafting findings. The free-text field and the duplicate suffix are exactly the kind of defect that is obvious afterward. Computational drafting is the practice of being afterward, beforehand.
+Nothing in this specification is sophisticated. Every control is ordinary. What the discipline added was sequence and completeness: the elements were drafted before the build, the translations were checked while checking was cheap, and the three defects that would otherwise have been incident findings became drafting findings. The free-text field, the duplicate suffix and the vendor's word "replaces" are exactly the kind of defect that is obvious afterward. Computational drafting is the practice of being afterward, beforehand.
 
 ---
 

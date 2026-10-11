@@ -4,7 +4,7 @@ title: "Computational Drafting"
 authors:
   - family-names: "Paik"
     given-names: "Son-U Michael"
-version: 1.3.2
+version: 1.4.0
 date-released: "2026-10-12"
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/rolldabones/computational-drafting"

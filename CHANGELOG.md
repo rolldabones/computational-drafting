@@ -2,6 +2,18 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.4.0 (2026-10-12)
+
+Pattern 7 given its home in the eight elements, propagated to the checklist, the skeletons and the worked example. Decided by the author on 12 October 2026: the anatomy stays at eight. No breaking change to any instrument; the templates gain lines, none loses one.
+
+- **03-hostile-case-checklist: the seam closed.** Since v1.3.0 the pattern said of itself that it "adds an element rather than a test", and the anatomy, the loop, the checklist and the skeleton gave that element no home. The countermeasure's three moves now each name where they land: naming who may set the choice set is Authority (element two); giving refusal a landing place is Escalation (element seven); preserving the independently sourced answer to "what happens if we do nothing" is Escalation with Evidence (element six). The closing paragraph says the premise is not a ninth element but the test of whether the second, sixth and seventh were drafted far enough. The v1.3.0 wording stands in this changelog as history.
+- **01-specification-anatomy:** Authority names the right to define the alternatives as a decision right; Escalation lists a choice set from an unnamed source among its conditions and states that refusal on a stated ground is a lawful outcome with a record.
+- **02-interpreter-map:** review checklist question 11, who may define the alternatives and whether the system can record that the options as presented are not the options and stop. Ten questions to eleven; README Repository Contents says so.
+- **templates/system-prompt-as-delegated-authority:** the authority grant names who sets the alternatives and demotes any other source to an input; escalation gains the unnamed-source trigger and the sentence making a stop a lawful outcome. Two annotation sentences tie them to Pattern 7.
+- **templates/operator-card:** a stop trigger for options nobody named on the card set, with one annotation sentence.
+- **examples/invoice-agent-worked-example:** Pattern 7 run against the signed specification, producing a third defect, a vendor's claim that one invoice replaces another, repaired as specification v1.1 across Authority, Escalation and Evidence. The example's closing paragraph and the README's How to Use count three defects.
+- README version table, Repository Contents (02 and 03 rows), How to Use and `CITATION.cff` to v1.4.0; headers of the six touched content files to v1.4.0. `00-quick-start.md`, `04-proof-carrying-analysis.md`, `templates/clause-to-control-map.md`, `templates/claim-evidence-matrix.md` and `LICENSE.md` are unchanged byte for byte.
+
 ## v1.3.2 (2026-10-12)
 
 Corrections from the continuous improvement rotation, slot 1 of 1, sweep of 12 October 2026 (`account-maintenance`, `records/COMPLETION-RECORD-2026-10-12-01-session-sweep-rotation.md`). No instrument changes.

@@ -1,6 +1,6 @@
 # Template: The Operator Card
 
-Part of [Computational Drafting](../README.md) · v1.3.2 · 2026-10-12 (KST)
+Part of [Computational Drafting](../README.md) · v1.4.0 · 2026-10-12 (KST)
 
 The operator is the interpreter most specifications never address. The executive gets a memo, the model gets a prompt, the runtime gets a permission set, the auditor gets a log, and the human who sits next to the system every day gets folklore: what may I do, what must I not do and when do I call someone, learned from whoever trained them and amended by whatever has gone wrong so far. The [interpreter map](../02-interpreter-map.md) requires that each actor's authority be stated in the artifact that actor actually reads (review checklist question 2), and for the operator that artifact must exist before it can be read. The operator card is that artifact. It is the form the [worked example](../examples/invoice-agent-worked-example.md) produced when its third interpreter-walk finding was that operator knowledge was folkloric.
 
@@ -47,6 +47,8 @@ Stop the workflow and contact [named role or queue] when:
 - [trigger 1, e.g. amount or volume above threshold]
 - [trigger 2, e.g. legal language, injury, regulator contact]
 - the system does anything outside this card
+- it offers you a choice between options that nobody named on
+  this card set
 - you are unsure. Unsure counts.
 
 HOW TO STOP
@@ -74,7 +76,7 @@ card go to [card owner].
 
 **What you may and may not do.** The authority element applied to the operator rather than the agent. The reserved list matters more than the granted list: the silent exception (Pattern 5) usually enters through a helpful human, and the card closes that door by naming who may open it.
 
-**When to stop and call.** The escalation element in operational language. The triggers are copied from the specification, not summarized, and the final trigger is deliberately subjective: a well-drafted card prefers false referrals to quiet improvisation, exactly as the system prompt does. "Unsure counts" is the sentence that makes it true.
+**When to stop and call.** The escalation element in operational language. The triggers are copied from the specification, not summarized, and the final trigger is deliberately subjective: a well-drafted card prefers false referrals to quiet improvisation, exactly as the system prompt does. "Unsure counts" is the sentence that makes it true. The trigger on options nobody set is Pattern 7 for the person watching: the operator is often the only interpreter in a position to notice that the alternatives on the screen came from the counterparty.
 
 **How to stop.** A stop that requires looking up how to stop is Pattern 6 with a human in it. The mechanism is named on the card because the moment it is needed is the worst moment to search for it.
 

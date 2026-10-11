@@ -1,6 +1,6 @@
 # The Interpreter Map
 
-Part of [Computational Drafting](README.md) · v1.3.2 · 2026-10-12 (KST)
+Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
 
 A specification is not read once. It is read by a chain of interpreters, each asking a different question of it, each acting on the answer, and each capable of defeating the drafter's intent while remaining formally faithful to the text. The drafter's obligation runs to all of them. A specification that works for only one interpreter is incomplete.
 
@@ -38,6 +38,7 @@ Walk every material specification through these questions before implementation 
 8. Are the acceptance criteria fixed, and is the accepting human named, before the first output exists?
 9. For each pair of artifacts expressing the same requirement, has anyone verified they say the same thing since the last time either changed?
 10. If the system did tomorrow the worst thing it is technically capable of doing today, which element was supposed to prevent it, and does that element exist outside prose?
+11. Who may define the alternatives the system chooses among, and if a set of options arrives from anyone else, can the system record that the options as presented are not the options and stop?
 
 A "no" on any question is not necessarily a defect. It is a decision, and the discipline requires only that it be made by the principal rather than discovered by an incident.
 

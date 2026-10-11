@@ -1,6 +1,6 @@
 # The Hostile-Case Checklist
 
-Part of [Computational Drafting](README.md) · v1.3.2 · 2026-10-12 (KST)
+Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
 
 Experienced transactional lawyers draft for the moment trust has failed. Experienced engineers design for malformed inputs and hostile users. Computational drafting inherits both instincts and adds a third: the interpreter itself may defeat the intent while remaining, formally, within the text. Harmful results are rarely written as requirements. They compile from individually defensible decisions, and the monster appears at runtime.
 
@@ -64,13 +64,13 @@ This is the pattern that catches sophisticated specifications. Patterns 1 throug
 
 A specification that recognizes only act-or-fail has already lost this pattern. Refusal has to be a lawful outcome with a record, or the system will always choose an action, and whoever controls the framing controls which one.
 
-**Countermeasure.** Draft the premise as an element, not as context. Three moves.
+**Countermeasure.** Draft the premise into the elements that already exist rather than leaving it as context. Three moves, each landing in a named element.
 
-1. **Name who may set the choice set.** The specification, the named human or an enumerated source. A choice set arriving from anywhere else is an input to be verified, not a fact to be relied on.
-2. **Give refusal a landing place.** Confirmation has three lawful outcomes, each with a record: confirm; refuse; amend and confirm. Extend that to premises. "The alternatives presented are incomplete" must be a recordable outcome that halts the action rather than an error state the system routes around.
-3. **Require the unstated option to be stated.** For irreversible actions, make the specification demand an explicit answer to "what happens if we do nothing", sourced independently of whoever proposed the action. Urgency that cannot survive that question is usually manufactured.
+1. **Name who may set the choice set.** The specification, the named human or an enumerated source. A choice set arriving from anywhere else is an input to be verified, not a fact to be relied on. This is element two, Authority: the right to define the alternatives is a decision right, and an unallocated decision right defaults to whoever speaks first.
+2. **Give refusal a landing place.** Confirmation has three lawful outcomes, each with a record: confirm; refuse; amend and confirm. Extend that to premises. "The alternatives presented are incomplete" must be a recordable outcome that halts the action rather than an error state the system routes around. This is element seven, Escalation, drafted so that stopping on a stated ground is a lawful outcome and not a failure.
+3. **Require the unstated option to be stated.** For irreversible actions, make the specification demand an explicit answer to "what happens if we do nothing", sourced independently of whoever proposed the action, and preserve the answer with the decision. Urgency that cannot survive that question is usually manufactured. This is element seven again, with element six, Evidence, keeping the answer.
 
-**Why this one was parked.** The six patterns above are failures of the interpreter against a known specification, and they are drafted against. This one is a failure of the specification's own boundary: it is about what the drafter forgot to make an element. It was held back until the eight-element anatomy was stable enough to absorb a seventh pattern that adds an element rather than a test.
+**Why this one was parked.** The six patterns above are failures of the interpreter against a known specification, and they are drafted against. This one is a failure of the specification's own boundary: it is about a decision right the drafter forgot to allocate. It was held back until the eight-element anatomy was stable enough to show where the premise lands, which is in Authority, Escalation and Evidence, as the three moves record. The anatomy stays at eight. The premise is not a ninth element; it is the test of whether the second, sixth and seventh were drafted far enough.
 
 ## Running the pass
 
