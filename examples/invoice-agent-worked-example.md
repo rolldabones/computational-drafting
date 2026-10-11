@@ -1,8 +1,8 @@
 # Worked Example: The Accounts Payable Invoice Agent
 
-Part of [Computational Drafting](../README.md) · v1.1.1 · 2026-07-16 (KST)
+Part of [Computational Drafting](../README.md) · v1.3.2 · 2026-10-12 (KST)
 
-One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable contains all six.
+One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable contains every one of the six patterns this pass was run against.
 
 The example runs the full loop from [00-quick-start.md](../00-quick-start.md): principal, eight elements, interpreter walk, hostile-case pass, sign-off. Every company, document, system, policy citation and figure in this example is fictitious and illustrative. Names of roles are used in place of personal names; a real specification names the humans.
 
@@ -40,7 +40,7 @@ The clause-to-control rows for this deployment appear in the [clause-to-control 
 
 ## Step 4: The hostile-case pass
 
-The pass was run by an internal auditor, not the drafter, against all six patterns in [03-hostile-case-checklist.md](../03-hostile-case-checklist.md). Four patterns were satisfied by the existing draft. Two produced defects.
+The pass was run by an internal auditor, not the drafter, against the six patterns then in [03-hostile-case-checklist.md](../03-hostile-case-checklist.md). Pattern 7, the premise that looks unavoidable, was added at v1.3.0 on 13 August 2026 and has not been run against this specification. Four patterns were satisfied by the existing draft. Two produced defects.
 
 **Pattern 3, the unforbidden action.** Enumerating what the agent could technically do surfaced a gap between granted and possible: the agent's one autonomous action, returning deficient invoices to vendors, used a template but the template had a free-text field. Nothing forbade the agent from writing anything in it: payment commitments, apologies implying fault, terms. The countermeasure was structural, not textual: the free-text field was removed and replaced with an enumerated deficiency-code list. The prompt prohibition on promising unauthorized action remains, but the capability no longer exists.
 

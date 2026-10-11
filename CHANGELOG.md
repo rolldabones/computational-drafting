@@ -2,11 +2,22 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.3.2 (2026-10-12)
+
+Corrections from the continuous improvement rotation, slot 1 of 1, sweep of 12 October 2026 (`account-maintenance`, `records/COMPLETION-RECORD-2026-10-12-01-session-sweep-rotation.md`). No instrument changes.
+
+- **Pattern count residue from v1.3.0 cleared.** README Repository Contents read "Six failure patterns" and the closing question of the hostile-case pass read "all six countermeasures"; both now say seven. The worked example states that its pass was run against the six patterns then in the checklist and that Pattern 7, added at v1.3.0, has not been run against that specification. Extending the example to Pattern 7 is new content and is not made here.
+- **Doctrine pointer corrected.** README, The Three Doctrines as Drafting Rules, sent the reader to ECOSYSTEM.md for the doctrines' canonical statements. DOCTRINE.md has been the single normative statement since 13 August 2026 (ECOSYSTEM.md v1.7.7); the section now points there and names the map as the summary, matching the Part of the Ecosystem section.
+- **Header rule applied retroactively.** `00-quick-start.md` and `03-hostile-case-checklist.md` changed at v1.3.0 (pattern counts, six to seven) and kept their v1.1.1 headers, against the convention logged at v1.2.0. Every file touched in this release carries the v1.3.2 header; untouched files keep theirs.
+- **README interpreter summary** names the counterparty and the operator, so the summary lists all nine interpreters of the map.
+- **House style.** US spellings (judgment, recognizes, license) and four serial commas removed from the author's prose in 02, 03 and the operator card; the three lawful outcomes of confirmation are now listed with semicolons so "amend and confirm" stays one outcome.
+- README version table, How to Cite and `CITATION.cff` to v1.3.2 in lockstep. `01-specification-anatomy.md`, `04-proof-carrying-analysis.md`, the three other templates and `LICENSE.md` are unchanged byte for byte.
+
 ## v1.3.1 (2026-09-06)
 
 Citation infrastructure, doctrine citation line and lockstep maintenance. Session C of the September 2026 improvement pack, one patch release per repository across all 21 public repositories.
 
-- **`CITATION.cff` added** in the house form settled at D-C1: no `type` field, `version` and `date-released` in lockstep with the README, `license` as the SPDX identifier for this repository's licence, `abstract` taken from this repository's ECOSYSTEM.md role line rather than newly written.
+- **`CITATION.cff` added** in the house form settled at D-C1: no `type` field, `version` and `date-released` in lockstep with the README, `license` as the SPDX identifier for this repository's license, `abstract` taken from this repository's ECOSYSTEM.md role line rather than newly written.
 - **How to Cite block** aligned to this release and pointing at `CITATION.cff`.
 - **Doctrine citation line added** to the Part of the ecosystem section. This repository restates a doctrine and cited DOCTRINE.md nowhere, which is the Class E2 finding the new guards report.
 - **Citation lockstep lag corrected.** How to Cite read `v1.2.0` against a README of `v1.3.0`, the 16 July 2026 defect class. One of the three lags the new Class E3 guard was proved against on the unrepaired tree before this release.

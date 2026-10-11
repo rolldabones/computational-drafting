@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | former General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.3.1 | 2026-09-06 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.3.2 | 2026-10-12 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -71,13 +71,13 @@ A specification missing any element has not eliminated it. It has delegated it, 
 
 ## The Interpreter Chain
 
-The specification is read by more than one interpreter, and each asks a different question of it. The executive asks whether the system serves the objective. The developer asks what must be built. The model asks what response or action follows. The runtime asks whether the action is technically permitted. The reviewer asks whether the result meets the acceptance criteria. The auditor asks whether the decision can be reconstructed. The regulator and the court ask who had authority and who must answer.
+The specification is read by more than one interpreter, and each asks a different question of it. The executive asks whether the system serves the objective. The counterparty asks what it is entitled to and what remedy it has. The operator asks what they may do, what they must not do and when to call someone. The developer asks what must be built. The model asks what response or action follows. The runtime asks whether the action is technically permitted. The reviewer asks whether the result meets the acceptance criteria. The auditor asks whether the decision can be reconstructed. The regulator and the court ask who had authority and who must answer.
 
 A specification that works for only one interpreter is incomplete. [02-interpreter-map.md](02-interpreter-map.md) develops the full chain and supplies a review checklist for walking a draft through it.
 
 ## The Three Doctrines as Drafting Rules
 
-Three doctrines govern all work in this ecosystem. Their canonical statements live in the [ecosystem map](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) and are not restated here. In this repository they operate as drafting rules.
+Three doctrines govern all work in this ecosystem. Their canonical statements live in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) and are not restated here; the [ecosystem map](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) keeps a summary. In this repository they operate as drafting rules.
 
 - **Informed Intent** drafts first: the objective, authority, constraints, acceptance criteria and escalation conditions are made explicit before implementation begins. A machine cannot preserve an intention nobody took the trouble to state.
 - **Slow AI** drafts the tempo: the consequential parts of the system are slowed just enough that objectives, evidence, permissions and human judgment can be inspected before machine speed makes an error irreversible. A requirement for oversight is incomplete unless the architecture is technically blocked until approval arrives.
@@ -96,7 +96,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 | [00-quick-start.md](00-quick-start.md) | The minimal drafting loop and a worked miniature, usable without the rest of the repository |
 | [01-specification-anatomy.md](01-specification-anatomy.md) | The eight elements in full: legal ancestor, technical expression, drafting guidance and failure mode for each |
 | [02-interpreter-map.md](02-interpreter-map.md) | The interpreter chain, the question each interpreter asks and the specification review checklist |
-| [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Six failure patterns of interpreted specifications and the drafting countermeasures for each |
+| [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Seven failure patterns of interpreted specifications and the drafting countermeasures for each |
 | [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) | The proof-carrying analysis record: the output-side discipline that makes each material assertion in AI-assisted work reconstructible against named authority |
 | [templates/system-prompt-as-delegated-authority.md](templates/system-prompt-as-delegated-authority.md) | An annotated system prompt skeleton drafted as an instrument of delegated authority |
 | [templates/clause-to-control-map.md](templates/clause-to-control-map.md) | A template mapping contractual and policy obligations to technical controls, evidence and owners |
@@ -138,7 +138,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.3.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.3.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
