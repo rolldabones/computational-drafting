@@ -2,6 +2,13 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.4.1 (2026-10-15)
+
+Byline correction, on the author's instruction of 15 October 2026 (KST). No instrument changes.
+
+- **README credit line:** "CEO, GRC Solutions Korea | former General Counsel, BABL AI" now reads "CEO, GRC Solutions Korea". About the Author, which names the former role in prose, is unchanged.
+- README version table, How to Cite and `CITATION.cff` to v1.4.1 in lockstep. No other file is touched, so every file header stays at the release in which that file last changed. Every file other than the README, CHANGELOG.md and `CITATION.cff` is unchanged byte for byte.
+
 ## v1.4.0 (2026-10-12)
 
 Pattern 7 given its home in the eight elements, propagated to the checklist, the skeletons and the worked example. Decided by the author on 12 October 2026: the anatomy stays at eight. No breaking change to any instrument; the templates gain lines, none loses one.

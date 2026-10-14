@@ -3,12 +3,12 @@
 *Good intentions do not compile. Specifications do.*
 
 **Son-U Michael Paik**
-CEO, GRC Solutions Korea | former General Counsel, BABL AI
+CEO, GRC Solutions Korea
 [www.grcskorea.com](http://www.grcskorea.com)
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.4.0 | 2026-10-12 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.4.1 | 2026-10-15 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -138,7 +138,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.4.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.4.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
