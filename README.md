@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.4.1 | 2026-10-15 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.4.2 | 2026-10-17 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -28,7 +28,7 @@ Computational drafting is the design of specifications that translate human and 
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Design Principles](#design-principles)
 - [Origin](#origin)
-- [Part of the Ecosystem](#part-of-the-ecosystem)
+- [Part of the ecosystem](#part-of-the-ecosystem)
 - [How to Cite](#how-to-cite)
 - [License](#license)
 - [Changelog](#changelog)
@@ -77,11 +77,11 @@ A specification that works for only one interpreter is incomplete. [02-interpret
 
 ## The Three Doctrines as Drafting Rules
 
-Three doctrines govern all work in this ecosystem. Their canonical statements live in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) and are not restated here; the [ecosystem map](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) keeps a summary. In this repository they operate as drafting rules.
+Three doctrines govern all work in this ecosystem. Their canonical statements live in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md); each is quoted below in its sanctioned short form (DOCTRINE.md section 8); the [ecosystem map](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) keeps a summary. In this repository they operate as drafting rules.
 
-- **Informed Intent** drafts first: the objective, authority, constraints, acceptance criteria and escalation conditions are made explicit before implementation begins. A machine cannot preserve an intention nobody took the trouble to state.
-- **Slow AI** drafts the tempo: the consequential parts of the system are slowed just enough that objectives, evidence, permissions and human judgment can be inspected before machine speed makes an error irreversible. A requirement for oversight is incomplete unless the architecture is technically blocked until approval arrives.
-- **Final Liability** drafts the endpoint: a named human principal with actual decision rights, sufficient information, intervention power and residual responsibility, identified before the agent acts.
+- **Informed Intent** drafts first. *Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.* The specification writes the four elements down before implementation begins. A machine cannot preserve an intention nobody took the trouble to state.
+- **Slow AI** drafts the precondition. *Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.* The specification makes the consequential parts of the system inspectable before an error becomes irreversible. A requirement for oversight is incomplete unless the architecture is technically blocked until approval arrives.
+- **Final Liability** drafts the endpoint. *Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.* The specification names that owner, the human principal, before the agent acts.
 
 Each element of the anatomy serves at least one doctrine: elements one and two are Informed Intent's subject matter, elements three through seven are Slow AI reaching the execution layer and element eight, with the named principal throughout, is Final Liability in operation.
 
@@ -124,7 +124,7 @@ Nothing in this repository is legal advice. Specifications that allocate legal a
 
 The discipline was named and first developed in the essay [*The Dungeon Is a Legal System*](https://redcaps.substack.com/p/the-dungeon-is-a-legal-system) (Substack, [redcaps](https://open.substack.com/pub/redcaps), July 2026), which read Matt Dinniman's *Dungeon Crawler Carl* as an executable legal system and derived the drafting problem from it. This repository states the discipline fresh rather than excerpting the essay, so that the two artifacts can evolve independently: the essay as origin, the repository as canon.
 
-## Part of the Ecosystem
+## Part of the ecosystem
 
 This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function; the canonical map places all repositories in one structure. Nearest neighbors:
 
@@ -138,7 +138,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.4.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.4.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

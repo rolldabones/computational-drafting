@@ -2,6 +2,16 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.4.2 (2026-10-17)
+
+Doctrine short forms and mechanical corrections from the whole-account review of 15 October 2026 (doc sections 1 and 8; reviewer report 13, items A14, C1, C3 and C5), session T3. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.
+
+- **README, The Three Doctrines as Drafting Rules:** the three bullets restated the doctrines into different rules: Slow AI as a tempo ("drafts the tempo", "slowed just enough"), Final Liability with four attributes against the canon's three, and Informed Intent with five items none of which was the canon's exit. Each bullet now quotes the sentence form of DOCTRINE.md v1.2.0 section 8 and says in one sentence what a specification does with it. The paragraph mapping the eight elements to the doctrines is unchanged.
+- **Serial commas** removed at three places the review named: `02-interpreter-map.md` (the regulator row), `03-hostile-case-checklist.md` (Pattern 5) and `templates/operator-card.md` (the opening paragraph). The headers of those three files move to v1.4.2 under this repository's header rule.
+- **Part of the ecosystem** heading in the protocol's lowercase form; the Contents anchor is unchanged.
+- **This file** ends with the closing line, which it lacked.
+- README version table, How to Cite and `CITATION.cff` to v1.4.2 in lockstep. Every other file is unchanged byte for byte.
+
 ## v1.4.1 (2026-10-15)
 
 Byline correction, on the author's instruction of 15 October 2026 (KST). No instrument changes.
@@ -94,3 +104,7 @@ Initial publication.
 - templates/system-prompt-as-delegated-authority: annotated skeleton drafting the system prompt as an instrument of delegated authority (recitals, grant, reservations, conditions, covenants, termination, precedence).
 - templates/clause-to-control-map: the translation-consistency instrument, with column discipline, three worked rows and a maintenance protocol.
 - examples/invoice-agent-worked-example: an accounts payable agent specification run end to end through the loop, with three interpreter-walk findings and two hostile-case defects repaired before deployment.
+
+---
+
+**Final Liability rests with the Human.**

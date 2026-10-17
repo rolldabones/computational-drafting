@@ -1,6 +1,6 @@
 # The Interpreter Map
 
-Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
+Part of [Computational Drafting](README.md) · v1.4.2 · 2026-10-17 (KST)
 
 A specification is not read once. It is read by a chain of interpreters, each asking a different question of it, each acting on the answer, and each capable of defeating the drafter's intent while remaining formally faithful to the text. The drafter's obligation runs to all of them. A specification that works for only one interpreter is incomplete.
 
@@ -16,7 +16,7 @@ A specification is not read once. It is read by a chain of interpreters, each as
 | Runtime | Is this action technically permitted for this identity right now | Constraints and authority compiled into permissions, scopes, gates and limits |
 | Reviewer | Does this output satisfy the acceptance criteria | Criteria fixed before the work, and the evidence needed to apply them |
 | Auditor | Can the decision and its authority be reconstructed from the record | The evidence element: versions, logs, approvals, exceptions, identity bindings |
-| Regulator / court | Who had authority, which duties applied, and who must answer | The authority chain and the named human, demonstrable from documents that predate the dispute |
+| Regulator / court | Who had authority, which duties applied and who must answer | The authority chain and the named human, demonstrable from documents that predate the dispute |
 
 Two properties of the chain matter more than any single row.
 

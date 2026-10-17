@@ -1,6 +1,6 @@
 # The Hostile-Case Checklist
 
-Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
+Part of [Computational Drafting](README.md) · v1.4.2 · 2026-10-17 (KST)
 
 Experienced transactional lawyers draft for the moment trust has failed. Experienced engineers design for malformed inputs and hostile users. Computational drafting inherits both instincts and adds a third: the interpreter itself may defeat the intent while remaining, formally, within the text. Harmful results are rarely written as requirements. They compile from individually defensible decisions, and the monster appears at runtime.
 
@@ -40,7 +40,7 @@ Run every specification against these seven patterns before implementation. For 
 
 ## Pattern 5: The silent exception
 
-**The pattern.** A departure is made once, works, and becomes practice without ever becoming a decision. Six months later the operative rule is the exception, the written rule is a decoration and nobody can say when the substitution occurred.
+**The pattern.** A departure is made once, works and becomes practice without ever becoming a decision. Six months later the operative rule is the exception, the written rule is a decoration and nobody can say when the substitution occurred.
 
 **Recognition test.** Compare what the specification says against what the logs show actually happens. Every stable divergence is a silent exception already in force.
 
