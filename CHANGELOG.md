@@ -2,6 +2,11 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.4.3 (2026-10-20)
+
+- LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.
+- README version table, How to Cite and `CITATION.cff` to v1.4.3 in lockstep. File headers unchanged under this repository's header rule.
+
 ## v1.4.2 (2026-10-17)
 
 Doctrine short forms and mechanical corrections from the whole-account review of 15 October 2026 (doc sections 1 and 8; reviewer report 13, items A14, C1, C3 and C5), session T3. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.

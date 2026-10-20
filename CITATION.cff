@@ -4,8 +4,8 @@ title: "Computational Drafting"
 authors:
   - family-names: "Paik"
     given-names: "Son-U Michael"
-version: 1.4.2
-date-released: "2026-10-17"
+version: 1.4.3
+date-released: "2026-10-20"
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/rolldabones/computational-drafting"
 abstract: "The drafting layer: the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters."
