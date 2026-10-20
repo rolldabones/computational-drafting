@@ -1,6 +1,6 @@
 # Template: The Claim-Evidence Matrix
 
-Part of [Computational Drafting](../README.md) · v1.2.0 · 2026-08-07 (KST)
+Part of [Computational Drafting](../README.md) · v1.2.0 · 2026-08-08 (KST)
 
 An AI-assisted analysis arrives as continuous prose in a confident register. Inside it sit twenty or thirty separable claims, of which two or three carry the conclusion, and nothing on the surface distinguishes the claim that was checked against a primary source from the claim the model supplied because the sentence needed a subject. The claim-evidence matrix separates them. It is the output-side counterpart to the [clause-to-control map](clause-to-control-map.md): that instrument makes the translations of a requirement visible, this one makes the support for an assertion visible.
 
@@ -75,7 +75,7 @@ The signature accepts the analysis in the state this record describes. It does n
 
 ## A worked fragment
 
-Fictitious and illustrative. The question: whether a vendor may add a subprocessor without the client's consent under an executed data processing agreement.
+Fictitious and illustrative. The question: whether a vendor may add a subprocessor without the client's consent under an executed data processing agreement (DPA).
 
 **Section 0, abbreviated.** Decision question: may the vendor appoint Subprocessor X on 30 days' notice, and if not, what is the remedy. Governing law: England and Wales. Law as of: 7 August 2026. Record: executed DPA v2, the notice email, the vendor's subprocessor register. Unacceptable error: advising that consent is not required when it is. Tier: Standard.
 
@@ -84,7 +84,7 @@ Fictitious and illustrative. The question: whether a vendor may add a subprocess
 | 1 | The executed DPA is version 2 dated 3 March 2025 | Fact | DPA execution copy, signature page, retrieved 6 Aug 2026 | | Verified | None. Searched the contract file 6 Aug 2026; no later amendment located | High; reverses on production of an executed amendment | Counsel |
 | 2 | Clause 8.3 permits subprocessor appointment on 30 days' written notice, subject to a client objection right | Rule | DPA v2 cl. 8.3, retrieved 6 Aug 2026 | 1 | Verified | Cl. 8.5 conditions the notice right on the register being current, which cuts against the plain reading of 8.3 | High as to text; the interaction with 8.5 is claim 3 | Counsel |
 | 3 | Because the register was last updated in 2024, the 30-day notice route is unavailable and consent is required | Interpretation | Reasoning on cl. 8.3 with cl. 8.5; register export retrieved 6 Aug 2026 | 1, 2 | Disputed | Vendor asserts 8.5 is a reporting covenant rather than a condition; no authority located either way on this drafting | Moderate; reverses if the register was updated and the export is stale, which we have not confirmed with the vendor | Counsel |
-| 4 | Whether the client waived the objection by silence on two earlier appointments is not known | Uncertainty | No document located; question put to the account team 6 Aug 2026 | 2 | Unverified | | Material: a course-of-dealing argument would defeat claim 3 | Account team |
+| 4 | Whether the client waived the objection by silence on two earlier appointments is not known | Uncertainty | No document located; question put to the account team 6 Aug 2026 | 2 | Unverified | None. Searched the contract file for an objection or waiver on the two earlier appointments 6 Aug 2026; none located | Low either way; reverses on the account team's answer to the question put 6 Aug 2026. Material: a course-of-dealing argument would defeat claim 3 | Account team |
 
 Row 4 is the point of the instrument. In prose it would have been a subordinate clause near the end, or nothing at all.
 

@@ -4,7 +4,7 @@
 
 **Son-U Michael Paik**
 CEO, GRC Solutions Korea
-[www.grcskorea.com](http://www.grcskorea.com)
+[www.grcskorea.com](https://www.grcskorea.com)
 
 | Version | Date | Status | License |
 |---|---|---|---|
@@ -79,11 +79,11 @@ A specification that works for only one interpreter is incomplete. [02-interpret
 
 Three doctrines govern all work in this ecosystem. Their canonical statements live in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md); each is quoted below in its sanctioned short form (DOCTRINE.md section 8); the [ecosystem map](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) keeps a summary. In this repository they operate as drafting rules.
 
-- **Informed Intent** drafts first. *Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.* The specification writes the four elements down before implementation begins. A machine cannot preserve an intention nobody took the trouble to state.
+- **Informed Intent** drafts first. *Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.* The five authorizer conditions are Knowledge, Evidence, Authority, Time, Permission (DOCTRINE.md section 8 list form). The specification writes down the four elements of Informed Intent before implementation begins. A machine cannot preserve an intention nobody took the trouble to state.
 - **Slow AI** drafts the precondition. *Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.* The specification makes the consequential parts of the system inspectable before an error becomes irreversible. A requirement for oversight is incomplete unless the architecture is technically blocked until approval arrives.
 - **Final Liability** drafts the endpoint. *Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.* The specification names that owner, the human principal, before the agent acts.
 
-Each element of the anatomy serves at least one doctrine: elements one and two are Informed Intent's subject matter, elements three through seven are Slow AI reaching the execution layer and element eight, with the named principal throughout, is Final Liability in operation.
+Each element of the anatomy serves at least one doctrine: elements one, two, three and seven (Objective, Authority, Constraints, Escalation) write down Informed Intent's purpose, authority, boundaries and exit, elements three through seven are Slow AI reaching the execution layer and element eight, with the named principal throughout, is Final Liability in operation.
 
 ## Where This Sits
 
@@ -106,7 +106,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 
 ## How to Use This Repository
 
-Read [00-quick-start.md](00-quick-start.md) first. It contains the whole loop in miniature and is usable on its own. The worked example shows the same loop at deployment scale, end to end, including three defects the hostile-case pass catches before anyone could rely on the system.
+Read [00-quick-start.md](00-quick-start.md) first. It contains the whole loop in miniature and is usable on its own. The worked example shows the same loop at deployment scale, end to end, including two defects the hostile-case pass catches before sign-off and a third, Pattern 7, run after signature.
 
 When drafting a real specification: work through the eight elements in [01-specification-anatomy.md](01-specification-anatomy.md), walk the draft through the checklist in [02-interpreter-map.md](02-interpreter-map.md), then stress it against [03-hostile-case-checklist.md](03-hostile-case-checklist.md) before anyone builds against it. The templates are starting points, not substitutes for judgment: adapt them to the authority structure and evidence requirements of the actual deployment.
 
@@ -126,14 +126,16 @@ The discipline was named and first developed in the essay [*The Dungeon Is a Leg
 
 ## Part of the ecosystem
 
-This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function; the canonical map places all repositories in one structure. Nearest neighbors:
+This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function; the canonical map places all repositories in one structure.
 
 The three doctrines are used in this repository as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement. Where this repository restates a doctrine, it restates it at its own altitude and adds instruments, not doctrine (ECOSYSTEM.md protocol item 6).
 
+Nearest neighbors:
+
 - [origami-method](https://github.com/rolldabones/origami-method) - the workflow discipline that folds drafted specifications into repeatable, gated workflows
-- [definition-of-done](https://github.com/rolldabones/definition-of-done) - the acceptance doctrine that element eight of every specification feeds
+- [definition-of-done](https://github.com/rolldabones/definition-of-done) - the acceptance method that element eight of every specification feeds
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen) - the 12-step method whose gates the escalation and evidence elements are drafted for
-- [grc](https://github.com/rolldabones/grc) - the enterprise GRC method the specifications ultimately serve
+- [grc](https://github.com/rolldabones/grc) - the enterprise governance, risk management and compliance (GRC) method the specifications ultimately serve
 - [final-liability-rests-with-the-human-book-wip](https://github.com/rolldabones/final-liability-rests-with-the-human-book-wip) - the book-length argument for the named human every specification must reach
 
 ## How to Cite
@@ -158,7 +160,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 Son-U Michael Paik is an attorney, AI auditor and governance architect with more than 25 years of experience designing risk and compliance systems for cross-border institutions in regulated, high-stakes sectors across Asia, Europe and the United States. He is the former General Counsel of BABL AI, a global AI audit provider, and Founder and Chief Executive Officer of GRC Solutions Korea. He holds a Juris Doctor from Columbia Law School, a Master of Business Administration from the Yale School of Management and a Bachelor of Arts in Economics from Syracuse University, is admitted to the New York Bar and holds AI audit certifications from BABL AI and ForHumanity, including certifications under the EU AI Act, GDPR and the Digital Services Act.
 
-**GRC Solutions Korea:** [www.grcskorea.com](http://www.grcskorea.com)
+**GRC Solutions Korea:** [www.grcskorea.com](https://www.grcskorea.com)
 **LinkedIn:** [linkedin.com/in/sonupaik](https://linkedin.com/in/sonupaik)
 
 ---

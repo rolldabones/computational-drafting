@@ -4,7 +4,7 @@ Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
 
 A computational specification states eight elements. Each is presented here in the same four-part form: what it is, its legal ancestor, its technical expression and the characteristic failure when it is missing. The order is deliberate. Elements one and two establish who wants what and who may act. Elements three through five bound the field of action. Elements six through eight make the action inspectable, interruptible and acceptable.
 
-The elements may live in one artifact or several: a contract, a policy, a system prompt, a permission set, an approval workflow, an API specification. The discipline does not require a single document. It requires that each element exist somewhere enforceable and that the drafter can point to where.
+The elements may live in one artifact or several: a contract, a policy, a system prompt, a permission set, an approval workflow, an application programming interface (API) specification. The discipline does not require a single document. It requires that each element exist somewhere enforceable and that the drafter can point to where.
 
 ## 1. Objective
 
@@ -30,7 +30,7 @@ The elements may live in one artifact or several: a contract, a policy, a system
 
 **What it is.** What must never happen, expressed at the layer where it can be enforced. A prohibition that lives only in prose while the agent retains the permissions and tools to violate it is a preference, not a constraint.
 
-**Legal ancestor.** Negative covenants and conditions. A lender does not merely ask the borrower not to dispose of collateral; the security interest makes the disposition ineffective.
+**Legal ancestor.** Negative covenants and conditions. A lender does not merely ask the borrower not to dispose of collateral; the security interest survives the disposition and follows the collateral unless the lender authorized the disposition free of it (Uniform Commercial Code (UCC) §9-315(a)(1)), even though a contractual prohibition does not stop the transfer taking effect (UCC §9-401(b)).
 
 **Technical expression.** Permission boundaries, network and data egress controls, hard-coded refusals, input and output filters, rate and value limits.
 

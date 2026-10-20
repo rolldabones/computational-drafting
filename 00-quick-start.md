@@ -6,7 +6,7 @@ This file contains the whole discipline in miniature. It is usable without the r
 
 ## The loop
 
-1. **Name the principal.** Identify the human who answers for the outcome before anything else is written. If no one will accept that position, stop: the specification problem is upstream of drafting.
+1. **Name the principal.** Identify the human who answers for the outcome before anything else is written, and confirm that human meets the five authorizer conditions: Knowledge, Evidence, Authority, Time, Permission ([DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) section 2). If no one will accept that position, or the one who accepts it lacks any of the five, stop: the specification problem is upstream of drafting.
 2. **Draft the eight elements.** Objective, authority, constraints, precedence, exceptions, evidence, escalation, acceptance. One short paragraph or table row each. A gap is a silent delegation to whichever interpreter finds it first. ([01-specification-anatomy.md](01-specification-anatomy.md))
 3. **Walk the interpreter chain.** For each material interpreter, executive to court, confirm the draft answers the question that interpreter will ask, in a form that interpreter can use. ([02-interpreter-map.md](02-interpreter-map.md))
 4. **Run the hostile-case pass.** Test the draft against the seven failure patterns. Assume an interpreter that is literal where you meant purposive, purposive where you meant literal and fast everywhere. ([03-hostile-case-checklist.md](03-hostile-case-checklist.md))

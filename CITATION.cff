@@ -8,4 +8,4 @@ version: 1.4.3
 date-released: "2026-10-20"
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/rolldabones/computational-drafting"
-abstract: "The drafting layer: the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters."
+abstract: "The drafting layer: specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters, with the eight-element anatomy, the interpreter map, the hostile-case checklist, the proof-carrying analysis record, four templates and a worked example."

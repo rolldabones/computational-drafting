@@ -2,7 +2,7 @@
 
 Part of [Computational Drafting](README.md) · v1.4.2 · 2026-10-17 (KST)
 
-A specification is not read once. It is read by a chain of interpreters, each asking a different question of it, each acting on the answer, and each capable of defeating the drafter's intent while remaining formally faithful to the text. The drafter's obligation runs to all of them. A specification that works for only one interpreter is incomplete.
+A specification is not read once. It is read by a chain of interpreters, each asking a different question of it, each acting on the answer and each capable of defeating the drafter's intent while remaining formally faithful to the text. The drafter's obligation runs to all of them. A specification that works for only one interpreter is incomplete.
 
 ## The chain
 

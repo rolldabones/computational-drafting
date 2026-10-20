@@ -1,12 +1,12 @@
 # Proof-Carrying Analysis
 
-Part of [Computational Drafting](README.md) · v1.2.0 · 2026-08-07 (KST)
+Part of [Computational Drafting](README.md) · v1.2.0 · 2026-08-08 (KST)
 
 The first four files of this repository govern the instruction. This one governs what comes back.
 
 A specification drafted to the eight elements establishes what an interpreter was authorized to do. It does not establish that a particular output did it. Those are different questions, they fail in different ways and they need different instruments. A perfectly drafted specification is fully compatible with an output that cites a superseded rule, assumes a fact nobody checked and reaches a conclusion the record does not support. Nothing in the specification catches that, because the specification was written before the output existed.
 
-The name is borrowed. In computer security, proof-carrying code attaches to a program a machine-checkable proof that it satisfies the receiving system's safety policy, so the host verifies rather than trusts an untrusted producer (George C. Necula, "Proof-Carrying Code," POPL '97, 106-119). The analogy is deliberate and partial: professional analysis admits no machine-checkable proof, and the verifier is a competent human rather than a checker. What transfers is the shape. The producer supplies the evidence for its own claims in a form the recipient can test, and the recipient tests rather than trusts.
+The name is borrowed. In computer security, proof-carrying code attaches to a program a machine-checkable proof that it satisfies the receiving system's safety policy, so the host verifies rather than trusts an untrusted producer (George C. Necula, "Proof-Carrying Code," 24th Symposium on Principles of Programming Languages (POPL '97), 106-119). The analogy is deliberate and partial: professional analysis admits no machine-checkable proof, and the verifier is a competent human rather than a checker. What transfers is the shape. The producer supplies the evidence for its own claims in a form the recipient can test, and the recipient tests rather than trusts.
 
 ## The asymmetry this closes
 
@@ -89,7 +89,7 @@ Applying the Full tier to everything guarantees the instrument is abandoned with
 
 Computational drafting governs the instruction. The claim-evidence matrix governs the output. The [definition of done](https://github.com/rolldabones/definition-of-done) governs whether the output may be relied upon: its confirmation record is the signature, and the completed matrix is a principal thing the confirmer inspects before signing.
 
-The three doctrines operate here as they do throughout the discipline. **Informed Intent** requires the frame before the prompting: decision question, governing law, law-as-of date, authorized record and unacceptable error, settled before generation rather than reconstructed after it. **Slow AI** is the decomposition itself, which imposes exactly enough delay between a fluent output and reliance on it for the two to be told apart. **Final Liability** is the sign-off block: a named human, a stated scope of approval and a date, on a record that made the acceptance an act of judgment rather than an act of faith.
+The three doctrines operate here as they do throughout the discipline. **Informed Intent** requires the frame before the prompting: decision question, governing law, law-as-of date, authorized record and unacceptable error, settled before generation rather than reconstructed after it. **Slow AI** is met by the decomposition itself, which keeps an output from being relied on until it can be explained and audited: *Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.* **Final Liability** is the sign-off block: a named human, a stated scope of approval and a date, on a record that made the acceptance an act of judgment rather than an act of faith.
 
 ## What this is not
 

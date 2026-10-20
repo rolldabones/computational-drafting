@@ -78,7 +78,7 @@ New exposition and template.
 - README: version table, Repository Contents and How to Cite advance to v1.2.0.
 - Convention change, logged here: file headers advance only when the file itself changes. The release version is carried by this changelog, the README version table and the git tag. Headers on the eight unchanged files remain at their prior versions.
 - LICENSE.md is unchanged.
-  
+
 ## v1.1.1 (2026-07-16)
 
 Correction.

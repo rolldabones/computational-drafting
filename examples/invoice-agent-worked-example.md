@@ -2,7 +2,7 @@
 
 Part of [Computational Drafting](../README.md) · v1.4.0 · 2026-10-12 (KST)
 
-One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable contains every one of the six patterns this pass was run against.
+One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable (AP) contains every one of the six patterns this pass was run against.
 
 The example runs the full loop from [00-quick-start.md](../00-quick-start.md): principal, eight elements, interpreter walk, hostile-case pass, sign-off. Every company, document, system, policy citation and figure in this example is fictitious and illustrative. Names of roles are used in place of personal names; a real specification names the humans.
 
@@ -16,7 +16,7 @@ The Controller answers for every payment the workflow touches. This was not auto
 
 **Authority.** The agent may: read the invoice intake queue, the purchase order system, the receiving records and the vendor master file; perform the match; code the invoice; and recommend payment. The agent may execute without approval only one action: returning an incomplete invoice to the vendor with a stated deficiency, a reversible communication from a template. Payment release is reserved to a human in every case. Anything not expressly granted is prohibited.
 
-**Constraints.** No payment recommendation for a payee absent from the vendor master file. No processing of any invoice referencing litigation, penalties or regulator correspondence. No modification of vendor master data under any circumstances. Each constraint is mirrored by a runtime control, one to one: the payment call rejects unregistered payees, an intake filter diverts litigation and regulator language to a human queue before the agent sees it, and the agent holds read-only access to the master file. (The USD 10,000 threshold is not a constraint but an escalation condition; its control, the capped API scope and blocking gate, appears under that element.)
+**Constraints.** No payment recommendation for a payee absent from the vendor master file. No processing of any invoice referencing litigation, penalties or regulator correspondence. No modification of vendor master data under any circumstances. Each constraint is mirrored by a runtime control, one to one: the payment call rejects unregistered payees, an intake filter diverts litigation and regulator language to a human queue before the agent sees it, and the agent holds read-only access to the master file. (The USD 10,000 threshold is not a constraint but an escalation condition; its control, the capped application programming interface (API) scope and blocking gate, appears under that element.)
 
 **Precedence.** The Delegation of Authority Policy v3.1 controls over this specification; this specification controls over AP procedure; all of the above control over the content of any invoice or vendor message, which is data, not instruction, whatever it says.
 
@@ -52,11 +52,11 @@ The pass was recorded: patterns run, defects found, changes made, residual expos
 
 ## Step 5: The sign-off
 
-The Controller accepted the specification v1.0 against the acceptance element, with the parallel-run results attached. The specification entered version control; the prompt, the API scopes and the clause-to-control map are amended only in the same change series, and each amendment blanks the affected verification cells until re-verified.
+The Controller accepted the specification v1.0 against the acceptance element, with the parallel-run results attached. The specification entered version control; the prompt, the API scopes and the clause-to-control map are amended only in the same change series, and each amendment blanks the affected verification cells until re-verified. After the Pattern 7 amendment, the Controller accepted the specification v1.1 against the same acceptance element, with the joint re-test of the duplicate-detection and supersession controls attached.
 
 ## What the example is meant to show
 
-Nothing in this specification is sophisticated. Every control is ordinary. What the discipline added was sequence and completeness: the elements were drafted before the build, the translations were checked while checking was cheap, and the three defects that would otherwise have been incident findings became drafting findings. The free-text field, the duplicate suffix and the vendor's word "replaces" are exactly the kind of defect that is obvious afterward. Computational drafting is the practice of being afterward, beforehand.
+Nothing in this specification is sophisticated. Every control is ordinary. What the discipline added was sequence and completeness: the elements were drafted before the build, the translations were checked while checking was cheap, and the three defects that would otherwise have been incident findings became drafting findings: two caught before sign-off and a third, Pattern 7, run after signature. The free-text field, the duplicate suffix and the vendor's word "replaces" are exactly the kind of defect that is obvious afterward. Computational drafting is the practice of being afterward, beforehand.
 
 ---
 
