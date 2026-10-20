@@ -1,6 +1,6 @@
 # Worked Example: The Accounts Payable Invoice Agent
 
-Part of [Computational Drafting](../README.md) · v1.4.0 · 2026-10-12 (KST)
+Part of [Computational Drafting](../README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
 
 One specification, drafted end to end. The scenario is deliberately unglamorous: a mid-sized company deploys an agent to process routine vendor invoices, from receipt through payment recommendation. Unglamorous is the point. The failure patterns in this repository are not exotic; accounts payable (AP) contains every one of the six patterns this pass was run against.
 

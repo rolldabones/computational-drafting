@@ -1,6 +1,6 @@
 # Template: The Claim-Evidence Matrix
 
-Part of [Computational Drafting](../README.md) · v1.2.0 · 2026-08-08 (KST)
+Part of [Computational Drafting](../README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
 
 An AI-assisted analysis arrives as continuous prose in a confident register. Inside it sit twenty or thirty separable claims, of which two or three carry the conclusion, and nothing on the surface distinguishes the claim that was checked against a primary source from the claim the model supplied because the sentence needed a subject. The claim-evidence matrix separates them. It is the output-side counterpart to the [clause-to-control map](clause-to-control-map.md): that instrument makes the translations of a requirement visible, this one makes the support for an assertion visible.
 

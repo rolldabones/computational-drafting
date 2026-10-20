@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.4.3 | 2026-10-20 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.4.4 | 2026-10-20, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -140,7 +140,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.4.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.4.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

@@ -1,6 +1,6 @@
 # Proof-Carrying Analysis
 
-Part of [Computational Drafting](README.md) · v1.2.0 · 2026-08-08 (KST)
+Part of [Computational Drafting](README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
 
 The first four files of this repository govern the instruction. This one governs what comes back.
 
@@ -89,7 +89,7 @@ Applying the Full tier to everything guarantees the instrument is abandoned with
 
 Computational drafting governs the instruction. The claim-evidence matrix governs the output. The [definition of done](https://github.com/rolldabones/definition-of-done) governs whether the output may be relied upon: its confirmation record is the signature, and the completed matrix is a principal thing the confirmer inspects before signing.
 
-The three doctrines operate here as they do throughout the discipline. **Informed Intent** requires the frame before the prompting: decision question, governing law, law-as-of date, authorized record and unacceptable error, settled before generation rather than reconstructed after it. **Slow AI** is met by the decomposition itself, which keeps an output from being relied on until it can be explained and audited: *Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.* **Final Liability** is the sign-off block: a named human, a stated scope of approval and a date, on a record that made the acceptance an act of judgment rather than an act of faith.
+The three doctrines operate here as they do throughout the discipline. **Informed Intent** requires the frame before the prompting: decision question, governing law, law-as-of date, authorized record and unacceptable error, settled before generation rather than reconstructed after it (*Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions.*). **Slow AI** is met by the decomposition itself, which keeps an output from being relied on until it can be explained and audited: *Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit.* **Final Liability** is the sign-off block: a named human, a stated scope of approval and a date, on a record that made the acceptance an act of judgment rather than an act of faith (*Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene.*).
 
 ## What this is not
 

@@ -1,6 +1,6 @@
 # The Anatomy of a Computational Specification
 
-Part of [Computational Drafting](README.md) · v1.4.0 · 2026-10-12 (KST)
+Part of [Computational Drafting](README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
 
 A computational specification states eight elements. Each is presented here in the same four-part form: what it is, its legal ancestor, its technical expression and the characteristic failure when it is missing. The order is deliberate. Elements one and two establish who wants what and who may act. Elements three through five bound the field of action. Elements six through eight make the action inspectable, interruptible and acceptable.
 

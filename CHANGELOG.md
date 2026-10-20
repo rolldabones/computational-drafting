@@ -2,6 +2,19 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.4.4 (2026-10-20)
+
+Corrections from the independent review of 20 October 2026; changes made with Claude, approved by Michael Paik. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.
+
+- **Legal accuracy (CDR-01).** `01-specification-anatomy.md`, Constraints, legal ancestor: the security interest does not make a disposition ineffective. It survives the disposition and follows the collateral (Uniform Commercial Code (UCC) §9-315(a)(1)), and a contractual prohibition does not stop the transfer taking effect (UCC §9-401(b)).
+- **Doctrine compressions (CDR-02, CDR-03, CDR-08, CDR-16, CDR-19, X-01).** `04-proof-carrying-analysis.md` no longer frames Slow AI as a tempo, and each of its three doctrine sentences now carries the DOCTRINE.md section 8 sentence form verbatim. The README maps Informed Intent to elements one, two, three and seven, names the five authorizer conditions in the section 8 list form, says "the four elements of Informed Intent" and calls definition-of-done an acceptance method rather than a doctrine. Loop step 1 of `00-quick-start.md` now tests the principal against the five authorizer conditions.
+- **Worked example and templates (CDR-04, CDR-05, CDR-06, CDR-17).** The README and the worked example now say that two defects were caught before sign-off and a third, Pattern 7, was run after signature. The worked example records the Controller accepting specification v1.1. `templates/clause-to-control-map.md` gains worked rows for duplicate detection and supersession. Worked row 4 of `templates/claim-evidence-matrix.md` now has a filled counterauthority cell and a calibrated confidence.
+- **Metadata and licence (CDR-07, CDR-13, CDR-15).** Two file headers had a v1.2.0 date of 2026-08-07 against this file's 2026-08-08; both headers have now advanced under the header rule. The LICENSE summary now follows the Creative Commons deed: NonCommercial without the added permission clause, and the "No additional restrictions" term. A separate line says commercial permission may be sought from the author. The operative legal code is unchanged. The `CITATION.cff` abstract is re-taken from the current ECOSYSTEM.md role line.
+- **Style and readability (CDR-09, CDR-10, CDR-11, CDR-12, CDR-14, CDR-18).** Doctrine citation paragraph moved above "Nearest neighbors:". Acronyms spelled out at first use (governance, risk management and compliance; application programming interface; accounts payable; data processing agreement; the POPL '97 symposium; Korea Standard Time in each changed file's header). One serial comma removed in `02-interpreter-map.md`. A whitespace-only line removed from this file. The grcskorea.com links now use https.
+- **Erratum to v1.3.1, recorded here (the shipped entry stays as cut).** The v1.3.1 entry says the `CITATION.cff` abstract was taken from ECOSYSTEM.md's role line. That role line has since changed, and the abstract now follows the current line (CDR-15).
+- Headers of the seven changed files (`00`, `01`, `02`, `04`, the worked example, the clause-to-control map and the claim-evidence matrix) advance to v1.4.4 under this repository's header rule. README version table, How to Cite and `CITATION.cff` move to v1.4.4 in lockstep.
+- Findings applied: CDR-01 to CDR-19 and X-01.
+
 ## v1.4.3 (2026-10-20)
 
 - LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.
