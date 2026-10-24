@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.4.4 | 2026-10-20, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.5.0 | 2026-10-24, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 Computational drafting is the design of specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters. The contributing disciplines include legal drafting, software engineering, systems architecture, internal control, risk management, artificial intelligence governance and audit. This repository is the canonical home of the discipline: its claim, its instruments and a worked example. It is built on one principle.
 
@@ -40,9 +40,9 @@ Computational drafting is the design of specifications that translate human and 
 
 Every consequential system executes a specification, whether or not anyone drafted it deliberately. A contract is a specification for counterparties and courts. A policy is a specification for employees and auditors. A system prompt is a specification for a model. An approval workflow is a specification for a runtime. When these artifacts disagree, the system still acts, and what executes is the accidental sum of the fragments.
 
-Two professions have always worked on opposite sides of the same transformation. Law turns institutional intent into rules for people. Software engineering turns operational intent into rules for machines. Artificial intelligence places people and machines inside the same interpretive chain, and the two crafts converge on a single artifact: the specification that every material interpreter must be able to read, act on and answer for.
+Two professions have always worked on opposite sides of the same transformation. Law turns institutional intent into rules for people. Software engineering turns operational intent into rules for machines. Artificial intelligence places people and machines inside the same interpretive chain, and the two crafts converge on a single specification: one statement of intent, carried to each material interpreter in the artifact that interpreter can read, act on and answer for.
 
-Computational drafting is the discipline of producing that artifact. The drafter's task is to express intent precisely enough that every material interpreter, human or machine, is pushed toward reliable, accountable behavior, and to make the translation between interpreters visible enough to test.
+Computational drafting is the discipline of producing that specification. The drafter's task is to express intent precisely enough that every material interpreter, human or machine, is pushed toward reliable, accountable behavior, and to make the translation between interpreters visible enough to test.
 
 The specification is not documentation placed around the system. It is part of the system.
 
@@ -98,6 +98,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 | [02-interpreter-map.md](02-interpreter-map.md) | The interpreter chain, the question each interpreter asks and the eleven-question specification review checklist |
 | [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Seven failure patterns of interpreted specifications and the drafting countermeasures for each; the seventh lands in the authority, evidence and escalation elements |
 | [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) | The proof-carrying analysis record: the output-side discipline that makes each material assertion in AI-assisted work reconstructible against named authority |
+| [05-where-precision-belongs.md](05-where-precision-belongs.md) | Where the precise, machine-readable form of a rule belongs in the interpreter chain, compared with Stephen Wolfram's 2016 proposal for computational law, with five drafting consequences drawn from the existing elements and instruments, a drafting brief for a text-and-code clause and a worked translation |
 | [templates/system-prompt-as-delegated-authority.md](templates/system-prompt-as-delegated-authority.md) | An annotated system prompt skeleton drafted as an instrument of delegated authority |
 | [templates/clause-to-control-map.md](templates/clause-to-control-map.md) | A template mapping contractual and policy obligations to technical controls, evidence and owners |
 | [templates/operator-card.md](templates/operator-card.md) | A one-page plain-language card giving the operator the system's authority, constraints and escalation triggers without requiring legal or technical fluency |
@@ -108,7 +109,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 
 Read [00-quick-start.md](00-quick-start.md) first. It contains the whole loop in miniature and is usable on its own. The worked example shows the same loop at deployment scale, end to end, including two defects the hostile-case pass catches before sign-off and a third, Pattern 7, run after signature.
 
-When drafting a real specification: work through the eight elements in [01-specification-anatomy.md](01-specification-anatomy.md), walk the draft through the checklist in [02-interpreter-map.md](02-interpreter-map.md), then stress it against [03-hostile-case-checklist.md](03-hostile-case-checklist.md) before anyone builds against it. The templates are starting points, not substitutes for judgment: adapt them to the authority structure and evidence requirements of the actual deployment.
+When drafting a real specification: work through the eight elements in [01-specification-anatomy.md](01-specification-anatomy.md), walk the draft through the checklist in [02-interpreter-map.md](02-interpreter-map.md), then stress it against [03-hostile-case-checklist.md](03-hostile-case-checklist.md) before anyone builds against it. The templates are starting points, not substitutes for judgment: adapt them to the authority structure and evidence requirements of the actual deployment. When a deployment proposes a formal or machine-readable rule language as the authoritative form of a requirement, read [05-where-precision-belongs.md](05-where-precision-belongs.md) before deciding which artifact controls.
 
 Nothing in this repository is legal advice. Specifications that allocate legal authority or liability should be reviewed by qualified counsel in the relevant jurisdiction.
 
@@ -122,7 +123,7 @@ Nothing in this repository is legal advice. Specifications that allocate legal a
 
 ## Origin
 
-The discipline was named and first developed in the essay [*The Dungeon Is a Legal System*](https://redcaps.substack.com/p/the-dungeon-is-a-legal-system) (Substack, [redcaps](https://open.substack.com/pub/redcaps), July 2026), which read Matt Dinniman's *Dungeon Crawler Carl* as an executable legal system and derived the drafting problem from it. This repository states the discipline fresh rather than excerpting the essay, so that the two artifacts can evolve independently: the essay as origin, the repository as canon.
+The discipline was named and first developed in the essay [*The Dungeon Is a Legal System*](https://redcaps.substack.com/p/the-dungeon-is-a-legal-system) (Substack, [redcaps](https://open.substack.com/pub/redcaps), July 2026), which read Matt Dinniman's *Dungeon Crawler Carl* as an executable legal system and derived the drafting problem from it. This repository states the discipline fresh rather than excerpting the essay, so that the two artifacts can evolve independently: the essay as origin, the repository as canon. Independent convergence with earlier work is recorded where it tests an instrument: Stephen Wolfram's 2016 essay on computational law, read after the discipline was built, is taken up in [05-where-precision-belongs.md](05-where-precision-belongs.md).
 
 ## Part of the ecosystem
 
@@ -140,7 +141,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.4.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.5.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
