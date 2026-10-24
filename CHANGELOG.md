@@ -2,6 +2,16 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.5.1 (2026-10-24)
+
+Corrections and pointers following v1.5.0. Changes made with Claude, approved by Michael Paik. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.
+
+- **03-hostile-case-checklist, closing sentence.** "It is guaranteed to fail in a way somebody imagined, which is the most that drafting can promise" claimed more than a pass can deliver: no pass can guarantee that every failure is one somebody imagined. The sentence now states what the pass delivers: the failures somebody imagined have been drafted against. `05-where-precision-belongs.md` already restated it in that form, and no other file in the account quotes or restates it.
+- **Pointers to the usage rules in 05.** Three instrument files gain one sentence each naming where 05 sets out the rule that bears on them: `01-specification-anatomy.md`, Precedence (consequence 2); `templates/clause-to-control-map.md`, after the column discipline (consequences 1 and 2); `templates/claim-evidence-matrix.md`, beside the pointer to 04 (consequence 3). Each pointer is conditional and says where a rule is set out. None adds an element, a column, a field, a rule of use or a checklist question, so the release is a patch.
+- **05-where-precision-belongs:** "no instrument file changes" now reads "none changes what an instrument file requires", which stays true now that three instrument files point to it.
+- **CITATION.cff abstract** re-taken verbatim from the ECOSYSTEM.md role line, which now names 05 as "an exposition on machine-readable rules" (rolldabones v2.0.3). The v1.5.0 entry, which records that the instrument files did not point to 05 and that the role line did not name it, stays as cut.
+- Headers of the five changed content files (`01`, `03`, `05`, the clause-to-control map and the claim-evidence matrix) advance to v1.5.1 under this repository's header rule. README version table, How to Cite and `CITATION.cff` to v1.5.1 in lockstep. Every other file is unchanged byte for byte.
+
 ## v1.5.0 (2026-10-24)
 
 New exposition. Written with Claude, approved by Michael Paik. No instrument file changes. `05-where-precision-belongs.md` adds rules for using the clause-to-control map, the Precedence element and the claim-evidence matrix, an eleven-point drafting brief for a text-and-code clause and a hypothetical worked translation. The instrument files do not yet point to it.

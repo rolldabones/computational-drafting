@@ -1,6 +1,6 @@
 # Where Precision Belongs
 
-Part of [Computational Drafting](README.md) · v1.5.0 · 2026-10-24, Korea Standard Time (KST)
+Part of [Computational Drafting](README.md) · v1.5.1 · 2026-10-24, Korea Standard Time (KST)
 
 Files 00 to 03 govern the instruction, and [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) governs what comes back. This file takes up a question put to the discipline from outside: whether the authoritative form of a rule should be a precise, machine-readable language, with natural language demoted to a drafting aid.
 
@@ -50,7 +50,7 @@ A precise form does not by itself make anyone accountable. A formal rule can be 
 
 ## Drafting consequences
 
-None of the following adds an element, a pattern or a checklist question, and no instrument file changes. Consequences 1 to 3 add rules for using the clause-to-control map, the Precedence element and the claim-evidence matrix, and consequence 2 is backed by a drafting brief for a text-and-code clause; the v1.5.0 changelog entry records the rules and the brief. Consequences 4 and 5 apply existing elements to questions the essay raises.
+None of the following adds an element, a pattern or a checklist question, and none changes what an instrument file requires. Consequences 1 to 3 add rules for using the clause-to-control map, the Precedence element and the claim-evidence matrix, and consequence 2 is backed by a drafting brief for a text-and-code clause; the v1.5.0 changelog entry records the rules and the brief. Consequences 4 and 5 apply existing elements to questions the essay raises.
 
 1. **Keep the obligation and the control as independently authored forms, and test their agreement.** They may sit in one file, as in Catala, or in several; the anatomy does not require a single document. In each row of the clause-to-control map, the obligation column names the text that states what should happen and the technical expression column names the control that makes it happen. A control that answers to no obligation has no authorization the map can trace. Where an obligation has no control, the row may stand as organizational only if its "None" is written down and accepted.
 2. **Draft the conflict rule, and route detection.** State in Precedence (element four) which form governs the parties' rights when the obligation and the control diverge; the default this repository recommends is the text. That clause allocates consequences after the event; detection and suspension are what stop execution. Detection runs through automated conformance tests against expected results specified by the authorizing party (in the worked translation below, the issuer of the policy); acceptance sampling (element eight); re-verification of the map row whenever either form changes; and the evidence record (element six). On detection, the affected function moves at once to a state named in advance, closed by default for irreversible actions, until a named human releases it.

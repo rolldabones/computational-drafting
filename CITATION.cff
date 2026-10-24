@@ -4,8 +4,8 @@ title: "Computational Drafting"
 authors:
   - family-names: "Paik"
     given-names: "Son-U Michael"
-version: 1.5.0
+version: 1.5.1
 date-released: "2026-10-24"
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/rolldabones/computational-drafting"
-abstract: "The drafting layer: specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters, with the eight-element anatomy, the interpreter map, the hostile-case checklist, the proof-carrying analysis record, four templates and a worked example."
+abstract: "The drafting layer: specifications that translate human and institutional intent into behavior across legal, organizational and technical interpreters, with the eight-element anatomy, interpreter map, hostile-case checklist, proof-carrying analysis record, an exposition on machine-readable rules, four templates and a worked example."

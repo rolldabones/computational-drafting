@@ -1,6 +1,6 @@
 # Template: The Clause-to-Control Map
 
-Part of [Computational Drafting](../README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
+Part of [Computational Drafting](../README.md) · v1.5.1 · 2026-10-24, Korea Standard Time (KST)
 
 The same requirement usually exists in several forms: a contract clause, a policy paragraph, a line in a system prompt, a permission in a runtime, a test in a suite. Each form is a translation, translation is where meaning is lost, and the loss is invisible until an incident makes it the finding. The clause-to-control map is the instrument that makes the translations visible and testable. It is the second obligation of the drafter (see [02-interpreter-map.md](../02-interpreter-map.md)): after completeness, consistency.
 
@@ -24,6 +24,8 @@ Column discipline:
 - **Evidence artifact.** What a reviewer would inspect to confirm the control operated: a log, an approval record, a test result, a configuration export.
 - **Owner.** A named role that answers for the row staying true. Rows without owners drift.
 - **Verified.** The date someone last confirmed the forms still say the same thing, and how. Any change to any form in the row resets this cell to blank.
+
+Where a row's technical expression is code that implements the obligation, [05-where-precision-belongs.md](../05-where-precision-belongs.md) (drafting consequences 1 and 2) sets out how the obligation and the code are kept as independently authored forms and tested for agreement, and what follows when they diverge.
 
 ## Worked rows
 

@@ -1,12 +1,12 @@
 # Template: The Claim-Evidence Matrix
 
-Part of [Computational Drafting](../README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
+Part of [Computational Drafting](../README.md) · v1.5.1 · 2026-10-24, Korea Standard Time (KST)
 
 An AI-assisted analysis arrives as continuous prose in a confident register. Inside it sit twenty or thirty separable claims, of which two or three carry the conclusion, and nothing on the surface distinguishes the claim that was checked against a primary source from the claim the model supplied because the sentence needed a subject. The claim-evidence matrix separates them. It is the output-side counterpart to the [clause-to-control map](clause-to-control-map.md): that instrument makes the translations of a requirement visible, this one makes the support for an assertion visible.
 
 The matrix earns its keep twice. At drafting time it exposes the claims that exist in prose and nowhere in the record. At review time it lets a reviewer test the analysis rather than read it, which is the difference between an hour and a day, and between a check and an impression.
 
-The rationale for each field is in [04-proof-carrying-analysis.md](../04-proof-carrying-analysis.md). Fill the frame before generating anything. A matrix assembled after the fact records what was produced; a frame set beforehand constrains what gets produced.
+The rationale for each field is in [04-proof-carrying-analysis.md](../04-proof-carrying-analysis.md). Fill the frame before generating anything. A matrix assembled after the fact records what was produced; a frame set beforehand constrains what gets produced. When the analysis translates a prose rule into code or another precise form, [05-where-precision-belongs.md](../05-where-precision-belongs.md) (drafting consequence 3) sets out how the reading is recorded as an Interpretation and the code's conformance to it as a separate Inference.
 
 ---
 

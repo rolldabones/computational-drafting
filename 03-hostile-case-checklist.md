@@ -1,6 +1,6 @@
 # The Hostile-Case Checklist
 
-Part of [Computational Drafting](README.md) · v1.4.2 · 2026-10-17 (KST)
+Part of [Computational Drafting](README.md) · v1.5.1 · 2026-10-24, Korea Standard Time (KST)
 
 Experienced transactional lawyers draft for the moment trust has failed. Experienced engineers design for malformed inputs and hostile users. Computational drafting inherits both instincts and adds a third: the interpreter itself may defeat the intent while remaining, formally, within the text. Harmful results are rarely written as requirements. They compile from individually defensible decisions, and the monster appears at runtime.
 
@@ -79,7 +79,7 @@ The pass is adversarial by design. Assign it, where possible, to someone other t
 1. Which pattern is this deployment most exposed to, and does the specification name that exposure?
 2. If all seven countermeasures are in place, what did they cost, and did the principal accept the cost knowingly?
 
-A specification that has survived a genuine hostile-case pass is not guaranteed safe. It is guaranteed to fail in a way somebody imagined, which is the most that drafting can promise.
+A specification that has survived a genuine hostile-case pass is not guaranteed safe. The pass delivers something narrower: the failures somebody imagined have been drafted against, and that is the most drafting can promise.
 
 ---
 

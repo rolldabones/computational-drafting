@@ -1,6 +1,6 @@
 # The Anatomy of a Computational Specification
 
-Part of [Computational Drafting](README.md) · v1.4.4 · 2026-10-20, Korea Standard Time (KST)
+Part of [Computational Drafting](README.md) · v1.5.1 · 2026-10-24, Korea Standard Time (KST)
 
 A computational specification states eight elements. Each is presented here in the same four-part form: what it is, its legal ancestor, its technical expression and the characteristic failure when it is missing. The order is deliberate. Elements one and two establish who wants what and who may act. Elements three through five bound the field of action. Elements six through eight make the action inspectable, interruptible and acceptable.
 
@@ -38,7 +38,7 @@ The elements may live in one artifact or several: a contract, a policy, a system
 
 ## 4. Precedence
 
-**What it is.** Which instruction wins when instructions conflict. Specifications for interpreted systems are layered: policy over prompt, prompt over retrieved content, principal over user, and the hierarchy must be stated rather than assumed.
+**What it is.** Which instruction wins when instructions conflict. Specifications for interpreted systems are layered: policy over prompt, prompt over retrieved content, principal over user, and the hierarchy must be stated rather than assumed. Where one requirement is expressed both in text and in code, [05-where-precision-belongs.md](05-where-precision-belongs.md) (drafting consequence 2) sets out how to state which form governs when they diverge and how a divergence is detected and held.
 
 **Legal ancestor.** Order-of-precedence clauses in complex agreements, the hierarchy of statute over regulation over guidance, entire-agreement clauses that exclude stray representations.
 
