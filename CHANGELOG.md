@@ -2,6 +2,15 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.5.2 (2026-10-26)
+
+Correction to the brief in `05-where-precision-belongs.md`. Changes made with Claude, approved by Michael Paik. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.
+
+- **The brief for a text-and-code clause, restated.** The eleven points become a short operative clause (C1 to C5: terms, precedence, hold and release, the election that the code governs, cure and remedy) and a procedural schedule (S1 to S8: roles, tests, the deployment gate, detection, release triggers, referrals, the cure period, records and internal policies), so that counsel can check each part on its own. A working clause drafted from the v1.5.1 brief reached 3,590 words; five independent checks of that clause on 24 October 2026 traced 23 gaps to the brief itself, and counsel approved the clause as a working draft the same day. The restated brief closes all 23 and takes its defaults from that approved clause. Among them: the election required a version passing tests that encode the text it displaces, and now excludes the elected requirement's own tests and requires the initial tests to exist; "code" reached only deployed versions; a held function counted as a divergence; the lock froze the whole code rather than the component that implements the requirement; an amendment had no conformance date; deemed release could loop, and a refusal now holds only with reasons and a referral; the detection routes of consequence 2 (acceptance sampling, map re-verification, the evidence record) were missing; and where both parties issue the text no principal was named.
+- **Two notes for counsel added after the schedule:** the governing law on which deemed release and the expert's determination depend, and where the brief departs from the doctrine (deemed release returns a function to service without a decision; the named human still answers). Neither takes a position on any jurisdiction.
+- **References re-keyed:** consequence 2 names the clause and the schedule in place of "the eleven points"; the worked translation cites C1, C3, S4, S5 and S8 in place of points 1, 6 and 6(d).
+- `05-where-precision-belongs.md` header, README, CHANGELOG and CITATION.cff to v1.5.2 under the header rule.
+
 ## v1.5.1 (2026-10-24)
 
 Corrections and pointers following v1.5.0. Changes made with Claude, approved by Michael Paik. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.
