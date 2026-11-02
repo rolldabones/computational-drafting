@@ -2,6 +2,11 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.5.3 (2026-11-03)
+
+- README: one sentence under the version table states this repository's header rule, so that a file whose header reads older than the repository does not look stale. No content file changed; under the header rule their headers stay as they are.
+- README version table, How to Cite and `CITATION.cff` to v1.5.3. Train C of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
+
 ## v1.5.2 (2026-10-26)
 
 Correction to the brief in `05-where-precision-belongs.md`. Changes made with Claude, approved by Michael Paik. No instrument changes: the anatomy, the checklist, the patterns and the templates require what they required.
