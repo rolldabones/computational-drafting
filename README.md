@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.5.3 | 2026-11-03, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.6.0 | 2026-11-04, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 The table gives the repository's version. Each content file's header carries the version of the release that last changed it, the header rule this repository keeps by decision of 9 August 2026, so a file can read older than the repository without being stale.
 
@@ -101,6 +101,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 | [03-hostile-case-checklist.md](03-hostile-case-checklist.md) | Seven failure patterns of interpreted specifications and the drafting countermeasures for each; the seventh lands in the authority, evidence and escalation elements |
 | [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) | The proof-carrying analysis record: the output-side discipline that makes each material assertion in AI-assisted work reconstructible against named authority |
 | [05-where-precision-belongs.md](05-where-precision-belongs.md) | Where the precise, machine-readable form of a rule belongs in the interpreter chain, compared with Stephen Wolfram's 2016 proposal for computational law, with five drafting consequences drawn from the existing elements and instruments, a drafting brief for a text-and-code clause and a worked translation |
+| [06-earned-enforcement.md](06-earned-enforcement.md) | How strictly a rule is enforced and what moves it: five questions that turn a ritual into a rule a mechanism can enforce, a five-rung ladder from value to human-owned decision mapped to the interpreters and the elements, four rules of use (default down, climb on an observed failure, sunset, reserved actions) and the test; occasioned by Nate B. Jones's Executive Briefing of 12 July 2026 |
 | [templates/system-prompt-as-delegated-authority.md](templates/system-prompt-as-delegated-authority.md) | An annotated system prompt skeleton drafted as an instrument of delegated authority |
 | [templates/clause-to-control-map.md](templates/clause-to-control-map.md) | A template mapping contractual and policy obligations to technical controls, evidence and owners |
 | [templates/operator-card.md](templates/operator-card.md) | A one-page plain-language card giving the operator the system's authority, constraints and escalation triggers without requiring legal or technical fluency |
@@ -111,7 +112,7 @@ This repository owns the specification as artifact: its anatomy, its interpreter
 
 Read [00-quick-start.md](00-quick-start.md) first. It contains the whole loop in miniature and is usable on its own. The worked example shows the same loop at deployment scale, end to end, including two defects the hostile-case pass catches before sign-off and a third, Pattern 7, run after signature.
 
-When drafting a real specification: work through the eight elements in [01-specification-anatomy.md](01-specification-anatomy.md), walk the draft through the checklist in [02-interpreter-map.md](02-interpreter-map.md), then stress it against [03-hostile-case-checklist.md](03-hostile-case-checklist.md) before anyone builds against it. The templates are starting points, not substitutes for judgment: adapt them to the authority structure and evidence requirements of the actual deployment. When a deployment proposes a formal or machine-readable rule language as the authoritative form of a requirement, read [05-where-precision-belongs.md](05-where-precision-belongs.md) before deciding which artifact controls.
+When drafting a real specification: work through the eight elements in [01-specification-anatomy.md](01-specification-anatomy.md), walk the draft through the checklist in [02-interpreter-map.md](02-interpreter-map.md), then stress it against [03-hostile-case-checklist.md](03-hostile-case-checklist.md) before anyone builds against it. The templates are starting points, not substitutes for judgment: adapt them to the authority structure and evidence requirements of the actual deployment. When a deployment proposes a formal or machine-readable rule language as the authoritative form of a requirement, read [05-where-precision-belongs.md](05-where-precision-belongs.md) before deciding which artifact controls. When a rule is proposed for enforcement by a mechanism, or a block is proposed before any rule has failed, read [06-earned-enforcement.md](06-earned-enforcement.md) before choosing the rung.
 
 Nothing in this repository is legal advice. Specifications that allocate legal authority or liability should be reviewed by qualified counsel in the relevant jurisdiction.
 
@@ -143,7 +144,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.5.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.6.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
