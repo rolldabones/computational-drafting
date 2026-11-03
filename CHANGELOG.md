@@ -2,6 +2,11 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.6.1 (2026-11-04)
+
+- `06-earned-enforcement.md`, Sources: the Ayres and Braithwaite citation gains its chapter, chapter 2, The Benign Big Gun, read from the publisher's contents page on 4 November 2026; the v1.6.0 line cited the book without a pinpoint. No claim changes. Found by the session's critical read after v1.6.0 shipped, on Michael Paik's ruling of the same day (`account-maintenance/DECISIONS.md`).
+- Header of `06-earned-enforcement.md`, README version table, How to Cite and `CITATION.cff` to v1.6.1 under the header rule. Every other file is unchanged byte for byte. Prepared with Claude, approved by Michael Paik.
+
 ## v1.6.0 (2026-11-04)
 
 New exposition. Written with Claude, approved by Michael Paik. No instrument file changes: the anatomy stays at eight elements (the author's ruling of 12 October 2026), and the checklist, the patterns and the templates require what they required.

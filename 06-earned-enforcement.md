@@ -1,6 +1,6 @@
 # Earned Enforcement
 
-Part of [Computational Drafting](README.md) · v1.6.0 · 2026-11-04, Korea Standard Time (KST)
+Part of [Computational Drafting](README.md) · v1.6.1 · 2026-11-04, Korea Standard Time (KST)
 
 Files 00 to 03 govern the instruction, [04-proof-carrying-analysis.md](04-proof-carrying-analysis.md) governs what comes back and [05-where-precision-belongs.md](05-where-precision-belongs.md) places the precise form of a rule with the interpreter that must not be allowed a second reading. This file takes up a question that arrives after all of those: how strictly a rule is to be enforced, who decides that and what moves it.
 
@@ -69,7 +69,7 @@ For each rule: name the scarcity and show that it is still real. State the rule 
 ## Sources
 
 - Nate B. Jones, "AI-Native Companies Run on Code: 15 Rules for Operators," Executive Briefing, *Nate's Newsletter* (Substack), 12 July 2026 (UTC). https://natesnewsletter.substack.com/p/ai-native-company-rules Paid post; its public page (title, subtitle and opening) was read on 4 November 2026 (KST), and the subtitle names the fifteen rules, the five questions and the enforcement ladder. Nothing from the paid text is reproduced. The companion worksheet is members-only and is neither cited nor linked. No companion video was located.
-- Ian Ayres and John Braithwaite, *Responsive Regulation: Transcending the Deregulation Debate* (Oxford University Press, 1992), the enforcement pyramid. Cited without quotation.
+- Ian Ayres and John Braithwaite, *Responsive Regulation: Transcending the Deregulation Debate* (Oxford University Press, 1992), chapter 2, The Benign Big Gun, where the enforcement pyramid is set out; the chapter title was read from the publisher's contents page (Oxford Academic) on 4 November 2026 (KST). Cited without quotation.
 - [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines, section 8 short forms.
 
 ---
