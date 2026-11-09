@@ -2,6 +2,13 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.6.2 (2026-11-09)
+
+Patch release. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
+
+- README, License: one line points to `rolldabones/LICENSING.md` (v1.0.0, new), which states once what the account's two licenses permit, that a Client's use in its own operations may fall outside NonCommercial, how to ask and why the two licenses do not mix.
+- README version table, How to Cite and `CITATION.cff` to v1.6.2 under the header rule; every other file is unchanged byte for byte.
+
 ## v1.6.1 (2026-11-04)
 
 - `06-earned-enforcement.md`, Sources: the Ayres and Braithwaite citation gains its chapter, chapter 2, The Benign Big Gun, read from the publisher's contents page on 4 November 2026; the v1.6.0 line cited the book without a pinpoint. No claim changes. Found by the session's critical read after v1.6.0 shipped, on Michael Paik's ruling of the same day (`account-maintenance/DECISIONS.md`).
