@@ -2,6 +2,14 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.6.3 (2026-11-26)
+
+Patch release. Two doctrine corrections in one paragraph. Account review of 10 November 2026, High findings, accepted by Michael Paik that day (`account-maintenance/reviews/2026-11-10/Recommended_Rulings_Account_v0.2.md`); worked ahead of the repository's rotation slot on his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik.
+
+- `04-proof-carrying-analysis.md`, the paragraph on the three doctrines (CSV rows 852 and 853, rulings #50 and #51). The paragraph said that Informed Intent "requires the frame before the prompting" and listed the frame's five items, which are this file's instrument and not the doctrine's four elements (purpose, authority, boundaries, exit); it now says the doctrine is served by the frame and that the list is the file's own. It said that Slow AI "is met by the decomposition itself" and named two of the three tests; it now says the decomposition supports the explained and audited tests and does not by itself meet the doctrine, whose tests are conjunctive. The three section 8 sentence forms in the paragraph are unchanged, and no instrument, template or example changes.
+- Not in this release: CSV row 851 (ruling #52 and Q5), deemed release in `05-where-precision-belongs.md`. Taking it out of the default changes clause C3 and what happens on silence, which is a drafting question put to Michael Paik before any edit.
+- Header of `04-proof-carrying-analysis.md`, README version table, How to Cite and `CITATION.cff` to v1.6.3 under the header rule; every other file is unchanged byte for byte.
+
 ## v1.6.2 (2026-11-09)
 
 Patch release. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
