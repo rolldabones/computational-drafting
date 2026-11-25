@@ -2,6 +2,17 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.7.0 (2026-11-26)
+
+Minor release. The brief for a text-and-code clause no longer recommends deemed release. Account review of 10 November 2026, High finding CSV row 851 (ruling #52 and Q5, accepted by Michael Paik that day: out of the default, kept only as an option labeled outside the doctrine, limited to reversible functions with escalation to a named superior); the rule for silence that replaces it is his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik. Minor and not patch because a recommended default of the brief changes; no template, checklist or pattern changes.
+
+- `05-where-precision-belongs.md`, C3. Until v1.6.3, if the named person neither released a held function nor refused with reasons and referred the refusal within a fixed period, release was deemed given. DOCTRINE.md section 3.1 allows three outcomes at confirmation (confirm; refuse; amend and confirm) and no fourth, and release by silence was a fourth, stated as the brief's default. Now silence past the period is a refusal, which the implementer may refer under S6, and the function stays held until the named person or the expert decides.
+- C3, the option. Deemed release survives in square brackets, the brief's form for a point the parties may take: only for a function that can execute no irreversible action, only after the implementer has notified a named superior of the named person, and only after a further fixed period in which neither has released or refused. The clause says that the option departs from the doctrine.
+- S5 and S6 follow: silence that C3 treats as a refusal holds without reasons or a referral by the authorizing party, and the expert's questions include it. The expert decides within a fixed period and a finding that a refusal was unreasonable takes effect as a release, both as before, so one party's silence still cannot hold the other party's function indefinitely.
+- Two notes for counsel. Governing law: the deemed release point now concerns the option, where the parties take it. The second note, retitled "Where an option in the brief departs from the doctrine", says that the default keeps to Final Liability and that the option does not, and why the option is limited as it is.
+- Not changed: C1, C2, C4, C5, S1 to S4, S7, S8, the worked translation and every other file. Whether silence past the period is itself a breach is left, as cost already was, to the parties.
+- Header of `05-where-precision-belongs.md`, README version table, How to Cite and `CITATION.cff` to v1.7.0 under the header rule; every other file is unchanged byte for byte.
+
 ## v1.6.3 (2026-11-26)
 
 Patch release. Two doctrine corrections in one paragraph. Account review of 10 November 2026, High findings, accepted by Michael Paik that day (`account-maintenance/reviews/2026-11-10/Recommended_Rulings_Account_v0.2.md`); worked ahead of the repository's rotation slot on his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik.
