@@ -2,6 +2,13 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the eight-element anatomy, the review checklist, the hostile-case patterns or any of the templates) increment the major version. New files, patterns or worked examples increment the minor version. Corrections increment the patch version.
 
+## v1.7.1 (2026-11-26)
+
+Patch release: pointers only. On Michael Paik's rulings of 26 November 2026, recorded in DISPOSITION.md in the profile repository: thirteen repositories of the account were archived that day as dated editions. Prepared with Claude, approved by Michael Paik.
+
+- **README, Part of the ecosystem:** the 3 archived neighbors are marked "archived edition", with one sentence pointing to DISPOSITION.md. No file of the discipline changes.
+- README version table, How to Cite and `CITATION.cff` to v1.7.1 under the header rule; every other file keeps its own version. No file is added, removed, renamed or moved.
+
 ## v1.7.0 (2026-11-26)
 
 Minor release. The brief for a text-and-code clause no longer recommends deemed release. Account review of 10 November 2026, High finding CSV row 851 (ruling #52 and Q5, accepted by Michael Paik that day: out of the default, kept only as an option labeled outside the doctrine, limited to reversible functions with escalation to a named superior); the rule for silence that replaces it is his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik. Minor and not patch because a recommended default of the brief changes; no template, checklist or pattern changes.

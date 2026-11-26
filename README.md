@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.7.0 | 2026-11-26, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.7.1 | 2026-11-26, Korea Standard Time (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 The table gives the repository's version. Each content file's header carries the version of the release that last changed it, the header rule this repository keeps by decision of 9 August 2026, so a file can read older than the repository without being stale.
 
@@ -136,15 +136,17 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 Nearest neighbors:
 
-- [origami-method](https://github.com/rolldabones/origami-method) - the workflow discipline that folds drafted specifications into repeatable, gated workflows
-- [definition-of-done](https://github.com/rolldabones/definition-of-done) - the acceptance method that element eight of every specification feeds
+- [origami-method](https://github.com/rolldabones/origami-method) (archived edition) - the workflow discipline that folds drafted specifications into repeatable, gated workflows
+- [definition-of-done](https://github.com/rolldabones/definition-of-done) (archived edition) - the acceptance method that element eight of every specification feeds
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen) - the 12-step method whose gates the escalation and evidence elements are drafted for
-- [grc](https://github.com/rolldabones/grc) - the enterprise governance, risk management and compliance (GRC) method the specifications ultimately serve
+- [grc](https://github.com/rolldabones/grc) (archived edition) - the enterprise governance, risk management and compliance (GRC) method the specifications ultimately serve
 - [final-liability-rests-with-the-human-book-wip](https://github.com/rolldabones/final-liability-rests-with-the-human-book-wip) - the book-length argument for the named human every specification must reach
+
+Entries marked archived edition are dated editions that receive no corrections; [DISPOSITION.md](https://github.com/rolldabones/rolldabones/blob/main/DISPOSITION.md) lists them.
 
 ## How to Cite
 
-> Paik, Son-U Michael. *Computational Drafting*, v1.7.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
+> Paik, Son-U Michael. *Computational Drafting*, v1.7.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/computational-drafting
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
